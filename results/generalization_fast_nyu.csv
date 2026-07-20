@@ -1,0 +1,5 @@
+method,pool,HO,HO_sd,Power,Spec,RLF,RLF_sd,Tput
+Proposed Dn-DQN (rel),in-dist(slow+med),95.08,0.72,7.15,90.02,3.73,1.77,466.0
+Proposed Dn-DQN (rel),held-out(fast),96.01,0.57,0.52,87.21,1.73,1.24,523.1
+Standard DQN,in-dist(slow+med),88.03,0.90,77.53,59.85,18.13,3.11,769.1
+Standard DQN,held-out(fast),91.49,2.07,73.69,70.18,13.73,2.17,655.7

@@ -1,0 +1,15 @@
+config,seed,HO,Power,Spec,RLF,Tput,train_min
+branched-binary-noshape (v1 evidence),0,89.33,76.61,85.92,20.80,412.5,66.1
+branched-binary-noshape (v1 evidence),1,87.49,85.13,72.27,20.80,584.2,68.3
+branched-binary (proposed),0,89.18,61.84,70.98,18.67,614.8,68.8
+branched-binary (proposed),1,83.81,87.86,18.32,23.73,1224.3,68.2
+branched-binary (proposed),2,89.07,82.88,90.69,21.20,359.6,68.1
+branched-binary (proposed),3,95.84,33.50,91.24,6.93,421.5,65.2
+branched-binary (proposed),4,87.67,74.60,90.58,22.40,378.0,66.9
+branched-guarded-action (v3 evidence),0,87.76,87.75,86.86,22.27,385.4,66.5
+branched-guarded-state (proposed 9dB),0,94.80,65.61,92.54,5.07,342.1,67.3
+branched-guarded-state (proposed 9dB),1,94.63,64.48,47.26,3.20,931.8,66.9
+branched-guarded-state (proposed 9dB),2,95.49,67.56,89.24,5.60,375.3,65.6
+branched-guarded-state (proposed 9dB),3,95.87,65.32,91.36,5.33,351.3,66.3
+branched-guarded-state (proposed 9dB),4,95.09,55.10,82.76,3.87,529.0,69.4
+branched-incremental (BDQ),0,88.19,46.97,27.05,16.53,1316.4,69.2

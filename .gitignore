@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Trained model checkpoints (regenerable from the training scripts)
+*.pt
+
+# HighD dataset & HighD-derived data (academic licence — not redistributed)
+highD-dataset-v1.0/
+6G_Handover_Training_Data_v3.csv
+rederived_blockage_*.csv
+blockage_flags_*.csv
+
+# Large / scratch artifacts
+*.docx
+*.zip
+results_cloud_ref/
+
+# OS
+.DS_Store
+Thumbs.db

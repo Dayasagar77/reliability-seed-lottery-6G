@@ -1,0 +1,5 @@
+method,episodes,ho_events,ho_per_ep,success_pct,early_pct,late_pct,n_models
+3GPP A3 (rule),750,1514,2.019,97.36,0.00,2.64,1
+Flat Dn-DQN (reliability tilt),750,1534,2.045,95.31,0.00,4.69,1
+Shielded Safe-DQN (action mask),2250,4557,2.025,94.71,0.00,5.29,3
+Guarded branched (proposed),3750,7699,2.053,95.09,0.00,4.91,5

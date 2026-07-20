@@ -1,0 +1,4 @@
+method,HO_mean,HO_std,Power_mean,Power_std,Spec_mean,Spec_std,RLF_mean,RLF_std,Tput_mean,Tput_std
+Proposed Dn-DQN,94.44,0.61,20.92,4.01,90.40,0.28,8.98,1.73,450.4,2.0
+DDQN+PER,91.64,3.72,65.86,16.35,65.51,6.83,13.87,6.43,711.2,68.4
+Standard DQN,89.86,1.55,76.40,5.72,74.52,3.13,19.29,1.51,559.5,26.7

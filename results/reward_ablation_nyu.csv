@@ -1,0 +1,5 @@
+config,HO,Power,Spec,RLF,Tput
+Full (C1+C3+C5),95.60,7.14,90.31,4.80,466.3
+no C1 (power gate off),86.68,73.08,60.25,22.13,790.0
+no C3 (RLF penalty off),89.41,63.78,79.20,12.93,523.4
+no C5 (RB symmetry off),84.93,92.42,61.63,22.80,710.5
