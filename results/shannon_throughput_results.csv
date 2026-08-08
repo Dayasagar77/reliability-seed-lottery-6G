@@ -1,0 +1,6 @@
+method,throughput_mean,throughput_std,rb_mean,sinr_mean,spec_mean,ho_mean
+3GPP A3 Rule-based,1045.413,8.103,66.0,-4.76,0.0,98.46
+Standard DQN (Config 6),474.686,12.852,52.05,-8.0,24.91,96.24
+DDQN+PER (no curriculum),487.019,13.625,54.4,-8.12,20.71,95.54
+PPO (SB3),644.231,14.039,66.0,-7.53,0.0,96.8
+Dn-DQN (proposed),361.521,13.269,27.62,-6.95,68.53,95.45

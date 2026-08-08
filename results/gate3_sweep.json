@@ -1,0 +1,409 @@
+{
+  "grids": {
+    "tableVII_tableIV": "2234f1ccfd763518a0027712274f22a8",
+    "tableIX_tableX": "7576da98013155ad5f57abf425e218cf",
+    "tableXVII": "057788d99fabb2256d305a95f2dba546"
+  },
+  "quantum": {
+    "tableVII_tableIV": {
+      "HO": null,
+      "Power": null,
+      "Spec": null,
+      "RLF": 0.13333330222859474,
+      "Tput": null
+    },
+    "tableIX_tableX": {
+      "HO": null,
+      "Power": null,
+      "Spec": null,
+      "RLF": 0.13333333333333333,
+      "Tput": null
+    },
+    "tableXVII": {
+      "HO": null,
+      "Power": null,
+      "Spec": null,
+      "RLF": 0.1333333432768761,
+      "Tput": null,
+      "Override": null
+    }
+  },
+  "quantum_detail": {
+    "tableVII_tableIV": {
+      "HO": null,
+      "Power": null,
+      "Spec": null,
+      "RLF": {
+        "q": 0.13333330222859474,
+        "resid": 3.88077673250109e-05,
+        "resid_over_q": 0.0002910583228372796,
+        "n_distinct": 93
+      },
+      "Tput": null
+    },
+    "tableIX_tableX": {
+      "HO": null,
+      "Power": null,
+      "Spec": null,
+      "RLF": {
+        "q": 0.13333333333333333,
+        "resid": 3.3333333334439885e-05,
+        "resid_over_q": 0.00025000000000829914,
+        "n_distinct": 97
+      },
+      "Tput": null
+    },
+    "tableXVII": {
+      "HO": null,
+      "Power": null,
+      "Spec": null,
+      "RLF": {
+        "q": 0.1333333432768761,
+        "resid": 3.5043622688135656e-05,
+        "resid_over_q": 0.00026282715056026985,
+        "n_distinct": 45
+      },
+      "Tput": null,
+      "Override": null
+    }
+  },
+  "checks": [
+    {
+      "table": "Table IV r6 / Table VII r1",
+      "arm": "flat",
+      "metric": "HO",
+      "kind": "sd_train (+-)",
+      "printed": 1.74,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table IV r6 / Table VII r1",
+      "arm": "flat",
+      "metric": "Power",
+      "kind": "sd_train (+-)",
+      "printed": 20.7,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table IV r6 / Table VII r1",
+      "arm": "flat",
+      "metric": "Spec",
+      "kind": "sd_train (+-)",
+      "printed": 0.91,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table IV r6 / Table VII r1",
+      "arm": "flat",
+      "metric": "RLF",
+      "kind": "sd_train (+-)",
+      "printed": 3.89,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": 0.13333330222859474,
+      "verdict": "clear (29.18 quanta)"
+    },
+    {
+      "table": "Table IV r6 / Table VII r1",
+      "arm": "flat",
+      "metric": "Tput",
+      "kind": "sd_train (+-)",
+      "printed": 19.2,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table VII r4 (guarded)",
+      "arm": "guarded",
+      "metric": "HO",
+      "kind": "sd_train (+-)",
+      "printed": 0.29,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table VII r4 (guarded)",
+      "arm": "guarded",
+      "metric": "Power",
+      "kind": "sd_train (+-)",
+      "printed": 5.02,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table VII r4 (guarded)",
+      "arm": "guarded",
+      "metric": "Spec",
+      "kind": "sd_train (+-)",
+      "printed": 19.17,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table VII r4 (guarded)",
+      "arm": "guarded",
+      "metric": "RLF",
+      "kind": "bound (<)",
+      "printed": 0.17,
+      "grid": "tableVII_tableIV",
+      "resolvable": false,
+      "quantum": 0.13333330222859474,
+      "verdict": "clear (1.28 quanta)"
+    },
+    {
+      "table": "Table VII r4 (guarded)",
+      "arm": "guarded",
+      "metric": "Tput",
+      "kind": "sd_train (+-)",
+      "printed": 250.3,
+      "grid": "tableVII_tableIV",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "postguard",
+      "metric": "RLF",
+      "kind": "bound (<)",
+      "printed": 0.27,
+      "grid": "tableXVII",
+      "resolvable": false,
+      "quantum": 0.1333333432768761,
+      "verdict": "clear (2.02 quanta)"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "postguard",
+      "metric": "Override",
+      "kind": "sd_train (+-)",
+      "printed": 0.53,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "postguard",
+      "metric": "Power",
+      "kind": "sd_train (+-)",
+      "printed": 11.56,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "postguard",
+      "metric": "Spec",
+      "kind": "sd_train (+-)",
+      "printed": 20.76,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "postguard",
+      "metric": "HO",
+      "kind": "sd_train (+-)",
+      "printed": 0.24,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shielded",
+      "metric": "RLF",
+      "kind": "sd_train (+-)",
+      "printed": 1.65,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": 0.1333333432768761,
+      "verdict": "clear (12.37 quanta)"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shielded",
+      "metric": "Power",
+      "kind": "sd_train (+-)",
+      "printed": 7.1,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shielded",
+      "metric": "Spec",
+      "kind": "sd_train (+-)",
+      "printed": 34.86,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shielded",
+      "metric": "HO",
+      "kind": "sd_train (+-)",
+      "printed": 2.25,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shield_guard",
+      "metric": "RLF",
+      "kind": "bound (<)",
+      "printed": 0.21,
+      "grid": "tableXVII",
+      "resolvable": false,
+      "quantum": 0.1333333432768761,
+      "verdict": "clear (1.57 quanta)"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shield_guard",
+      "metric": "Override",
+      "kind": "sd_train (+-)",
+      "printed": 1.0,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shield_guard",
+      "metric": "Power",
+      "kind": "sd_train (+-)",
+      "printed": 13.16,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shield_guard",
+      "metric": "Spec",
+      "kind": "sd_train (+-)",
+      "printed": 8.71,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "shield_guard",
+      "metric": "HO",
+      "kind": "sd_train (+-)",
+      "printed": 0.44,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "lagrangian",
+      "metric": "RLF",
+      "kind": "bound (<)",
+      "printed": 0.1,
+      "grid": "tableXVII",
+      "resolvable": false,
+      "quantum": 0.1333333432768761,
+      "verdict": "FIRES -- widen to 0.14"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "lagrangian",
+      "metric": "Override",
+      "kind": "sd_train (+-)",
+      "printed": 0.31,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "lagrangian",
+      "metric": "Power",
+      "kind": "sd_train (+-)",
+      "printed": 1.98,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "lagrangian",
+      "metric": "Spec",
+      "kind": "sd_train (+-)",
+      "printed": 28.7,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    },
+    {
+      "table": "Table XVII",
+      "arm": "lagrangian",
+      "metric": "HO",
+      "kind": "sd_train (+-)",
+      "printed": 0.38,
+      "grid": "tableXVII",
+      "resolvable": true,
+      "quantum": null,
+      "verdict": "continuous metric -- gate not applicable"
+    }
+  ],
+  "fired": [
+    {
+      "table": "Table XVII",
+      "arm": "lagrangian",
+      "metric": "RLF",
+      "kind": "bound (<)",
+      "printed": 0.1,
+      "grid": "tableXVII",
+      "resolvable": false,
+      "quantum": 0.1333333432768761,
+      "verdict": "FIRES -- widen to 0.14"
+    }
+  ],
+  "unchecked": [
+    "Table X printed cells (no machine-readable locked spec on disk)",
+    "Table IX t/p/d (not dispersions in metric units)",
+    "Table XI (k = 3, separate spec)"
+  ]
+}

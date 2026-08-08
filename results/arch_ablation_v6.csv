@@ -1,0 +1,4 @@
+method,HO,HO_sd,Power,Power_sd,Spec,Spec_sd,RLF
+Proposed Dn-DQN (dueling+n-step+PER),95.54,0.21,78.05,0.24,79.40,0.74,0.40
+"DDQN+PER (no dueling, no n-step)",96.06,0.24,80.69,0.41,39.84,0.56,0.40
+Standard DQN (plain),95.72,0.21,80.01,1.14,48.74,0.94,0.93

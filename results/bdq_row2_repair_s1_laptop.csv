@@ -1,0 +1,2 @@
+config,seed,HO,Power,Spec,RLF,Tput,phase_min,ckpt,ckpt_origin,ckpt_mtime,ckpt_md5,venue,python,torch,numpy,steps,binary_power,guard_db,env_branched_md5,driver_md5,measured_utc
+branched-incremental (BDQ),1,95.52,12.05,36.81,4.93,1389.7,0.2,br_inc_s1.pt,original-20260712,2026-07-13 04:25:24,a40335eaeadfd191bad21882f3f73241,laptop,3.11.9,2.5.1+cu121,2.4.4,800000,False,,6a998fae24fb55e3b645d66606b2a72a,a4991bd7a89ddb1e1581d347d7a15127,2026-08-01T16:06:55Z

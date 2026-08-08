@@ -1,0 +1,16 @@
+method,seed,steps,pipeline,HO,Power,Spec,RLF,Tput,train_min
+DDQN+PER,0,800000,laptop-singlepass,89.49,72.74,51.25,17.33,887.0,36.4
+DDQN+PER,1,800000,laptop-singlepass,94.67,34.81,69.08,8.53,739.3,36.2
+DDQN+PER,2,800000,laptop-singlepass,90.13,53.74,75.40,11.73,606.6,36.3
+DDQN+PER,3,800000,laptop-singlepass,93.56,30.98,74.72,5.33,654.8,36.2
+DDQN+PER,4,800000,laptop-singlepass,87.25,82.50,22.35,18.27,1182.2,36.3
+Proposed Dn-DQN,0,800000,laptop-singlepass,93.77,18.36,89.27,9.20,462.8,39.4
+Proposed Dn-DQN,1,800000,laptop-singlepass,94.76,13.51,89.46,4.67,462.2,39.8
+Proposed Dn-DQN,2,800000,laptop-singlepass,93.84,8.76,77.68,3.87,685.6,39.8
+Proposed Dn-DQN,3,800000,laptop-singlepass,86.85,66.91,89.67,19.60,414.4,39.9
+Proposed Dn-DQN,4,800000,laptop-singlepass,95.45,1.97,89.44,4.40,502.0,39.7
+Standard DQN,0,800000,laptop-singlepass,85.24,84.42,79.99,20.40,501.3,35.4
+Standard DQN,1,800000,laptop-singlepass,85.57,81.20,79.56,20.53,526.5,31.5
+Standard DQN,2,800000,laptop-singlepass,84.60,85.72,80.36,18.27,493.4,31.7
+Standard DQN,3,800000,laptop-singlepass,89.05,74.26,74.71,13.60,578.3,31.4
+Standard DQN,4,800000,laptop-singlepass,87.04,83.31,70.06,20.13,618.5,31.2

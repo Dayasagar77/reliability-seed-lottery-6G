@@ -1,0 +1,6 @@
+method,real_HO_per_ep,HO_success_pct,HANDOVER_acts_per_ep
+Proposed Dn-DQN,2.140,93.58,52.50
+DDQN+PER,2.048,93.16,54.49
+Standard DQN,2.161,94.20,56.16
+PG-RRM,2.080,98.01,25.25
+3GPP A3,2.076,98.27,8.98

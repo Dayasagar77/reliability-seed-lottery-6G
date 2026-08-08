@@ -1,0 +1,206 @@
+{
+  "published_caption": "TABLE XVII: Learned-shield ablation \u2014 can the measured guard be replaced by learning? Four arms, same five training seeds (0\u20134), 8\u00d710\u2075 steps each, identical controller, channel, reward and evaluation. \u00b1 is the population standard deviation across training seeds; guard-fire is the share of control steps on which the state guard overrides the emitted intent.",
+  "claims": [
+    {
+      "claim": "\"same five training seeds (0-4)\"",
+      "verdict": "HOLDS",
+      "note": "every arm reports seeds [0, 1, 2, 3, 4]"
+    },
+    {
+      "claim": "\"identical controller, channel, reward and evaluation\"",
+      "verdict": "NOT RE-VERIFIED HERE",
+      "note": "a training-configuration claim, outside the reporting basis; unchanged by this task"
+    },
+    {
+      "claim": "\"8x10^5 steps each\"",
+      "verdict": "NOT RE-VERIFIED HERE",
+      "note": "training-configuration claim; the checkpoints were not retrained by this task"
+    },
+    {
+      "claim": "\"+- is the population standard deviation across training seeds\"",
+      "verdict": "FALSE",
+      "note": "+- is now sigma_train; it differs from the population sd by up to 3.6800"
+    },
+    {
+      "claim": "\"guard-fire is the share of control steps on which the state guard overrides the emitted intent\"",
+      "verdict": "HOLDS",
+      "note": "definition unchanged; only the estimator moved"
+    }
+  ],
+  "sigma_rows": [
+    {
+      "arm": "postguard",
+      "metric": "RLF",
+      "sd_train": 0.05404965326306091,
+      "sd_pop": 0.08459173216100953,
+      "gap_pop": 0.03054207889794862,
+      "sd_samp": 0.09457643172323625,
+      "gap_samp": 0.04052677846017534
+    },
+    {
+      "arm": "postguard",
+      "metric": "Override",
+      "sd_train": 0.532459870620715,
+      "sd_pop": 0.4764890988128689,
+      "gap_pop": 0.0559707718078461,
+      "sd_samp": 0.5327310077415947,
+      "gap_samp": 0.000271137120879672
+    },
+    {
+      "arm": "postguard",
+      "metric": "Power",
+      "sd_train": 11.562325711041629,
+      "sd_pop": 10.341855945539347,
+      "gap_pop": 1.2204697655022816,
+      "sd_samp": 11.56254645386817,
+      "gap_samp": 0.00022074282654216404
+    },
+    {
+      "arm": "postguard",
+      "metric": "Spec",
+      "sd_train": 20.762715852066243,
+      "sd_pop": 18.57086759228954,
+      "gap_pop": 2.1918482597767017,
+      "sd_samp": 20.76286116875363,
+      "gap_samp": 0.00014531668738726466
+    },
+    {
+      "arm": "postguard",
+      "metric": "HO",
+      "sd_train": 0.24033106986583294,
+      "sd_pop": 0.22756124019151197,
+      "gap_pop": 0.01276982967432097,
+      "sd_samp": 0.25442120105618904,
+      "gap_samp": 0.014090131190356098
+    },
+    {
+      "arm": "shielded",
+      "metric": "RLF",
+      "sd_train": 1.6519852991173984,
+      "sd_pop": 1.4963529552506991,
+      "gap_pop": 0.15563234386669933,
+      "sd_samp": 1.6729734631366318,
+      "gap_samp": 0.020988164019233313
+    },
+    {
+      "arm": "shielded",
+      "metric": "Power",
+      "sd_train": 7.095469934018015,
+      "sd_pop": 6.3471963471549815,
+      "gap_pop": 0.7482735868630339,
+      "sd_samp": 7.096381249388446,
+      "gap_samp": 0.0009113153704305432
+    },
+    {
+      "arm": "shielded",
+      "metric": "Spec",
+      "sd_train": 34.85842433452216,
+      "sd_pop": 31.17842504515242,
+      "gap_pop": 3.679999289369743,
+      "sd_samp": 34.858538916171376,
+      "gap_samp": 0.00011458164921407388
+    },
+    {
+      "arm": "shielded",
+      "metric": "HO",
+      "sd_train": 2.2540811849169144,
+      "sd_pop": 2.023316935866082,
+      "gap_pop": 0.2307642490508326,
+      "sd_samp": 2.2621371043115706,
+      "gap_samp": 0.008055919394656108
+    },
+    {
+      "arm": "shield_guard",
+      "metric": "RLF",
+      "sd_train": 0.048470494338603565,
+      "sd_pop": 0.06616435785224567,
+      "gap_pop": 0.017693863513642105,
+      "sd_samp": 0.07397400092262166,
+      "gap_samp": 0.025503506584018093
+    },
+    {
+      "arm": "shield_guard",
+      "metric": "Override",
+      "sd_train": 1.0013315034688992,
+      "sd_pop": 0.8957568825440305,
+      "gap_pop": 0.10557462092486869,
+      "sd_samp": 1.0014866403408735,
+      "gap_samp": 0.00015513687197432624
+    },
+    {
+      "arm": "shield_guard",
+      "metric": "Power",
+      "sd_train": 13.163108401726667,
+      "sd_pop": 11.77358841741389,
+      "gap_pop": 1.389519984312777,
+      "sd_samp": 13.163272020220813,
+      "gap_samp": 0.00016361849414536778
+    },
+    {
+      "arm": "shield_guard",
+      "metric": "Spec",
+      "sd_train": 8.713711110864713,
+      "sd_pop": 7.794288461417598,
+      "gap_pop": 0.9194226494471147,
+      "sd_samp": 8.714279417985999,
+      "gap_samp": 0.0005683071212860824
+    },
+    {
+      "arm": "shield_guard",
+      "metric": "HO",
+      "sd_train": 0.4358866902443096,
+      "sd_pop": 0.39504979406082047,
+      "gap_pop": 0.040836896183489124,
+      "sd_samp": 0.44167909700864366,
+      "gap_samp": 0.005792406764334068
+    },
+    {
+      "arm": "lagrangian",
+      "metric": "RLF",
+      "sd_train": 0.0,
+      "sd_pop": 0.03398496505809575,
+      "gap_pop": 0.03398496505809575,
+      "sd_samp": 0.0379963460414286,
+      "gap_samp": 0.0379963460414286
+    },
+    {
+      "arm": "lagrangian",
+      "metric": "Override",
+      "sd_train": 0.31071749071417654,
+      "sd_pop": 0.27813611580033987,
+      "gap_pop": 0.03258137491383667,
+      "sd_samp": 0.31096563096365665,
+      "gap_samp": 0.00024814024948011104
+    },
+    {
+      "arm": "lagrangian",
+      "metric": "Power",
+      "sd_train": 1.9824688528763847,
+      "sd_pop": 1.7736323622653618,
+      "gap_pop": 0.20883649061102294,
+      "sd_samp": 1.982981264559441,
+      "gap_samp": 0.0005124116830561576
+    },
+    {
+      "arm": "lagrangian",
+      "metric": "Spec",
+      "sd_train": 28.697132141565685,
+      "sd_pop": 25.66756695952185,
+      "gap_pop": 3.029565182043836,
+      "sd_samp": 28.697212269259225,
+      "gap_samp": 8.012769353982208e-05
+    },
+    {
+      "arm": "lagrangian",
+      "metric": "HO",
+      "sd_train": 0.3794689113936547,
+      "sd_pop": 0.3515169201653025,
+      "gap_pop": 0.02795199122835218,
+      "sd_samp": 0.3930078643654915,
+      "gap_samp": 0.013538952971836826
+    }
+  ],
+  "worst_gap_vs_population_sd": 3.679999289369743,
+  "worst_gap_vs_sample_sd": 0.04052677846017534,
+  "proposed_caption": "TABLE XVII: Learned-shield ablation \u2014 can the measured guard be replaced by learning? Four arms, same five training seeds (0\u20134), 8\u00d710\u2075 steps each, identical controller, channel, reward and evaluation. Each arm is evaluated on the same R = 8 common-random-number grid (5 seeds \u00d7 8 evaluation repeats = 40 evaluations per arm, 160 in total), and \u00b1 is \u03c3_train, the training-seed standard deviation recovered from a two-way crossed random-effects decomposition of that grid \u2014 not the spread of the five per-seed values. Where the training-seed component is not resolvable at p < 0.05 the cell is written as a one-sided 97.5\u202f% upper bound, \u03c3_train < x, rather than as a \u00b1. Guard-fire is the share of control steps on which the state guard overrides the emitted intent; \u201c\u2014 (disabled)\u201d marks an arm whose guard is switched off, so the quantity is identically zero by construction rather than unmeasured."
+}

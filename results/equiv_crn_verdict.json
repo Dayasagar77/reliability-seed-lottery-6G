@@ -1,0 +1,140 @@
+{
+  "what": "Does the 29-Jul cloud code change any metric this paper reports, for the arms that existed before it? Measured, not argued: the same frozen checkpoint evaluated under both code versions at identical common-random-number channel seeds.",
+  "ckpt": "srdndqn_postguard_s0.pt",
+  "ckpt_md5": "4e7b87848a3548ffe074f757391ab721",
+  "arm": "postguard",
+  "eval_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "eval_ep": 150,
+  "pool": 3251,
+  "crn": {
+    "rule": "seed = BASE + 100000 * repeat + n, applied only when reset() is called with seed=None",
+    "BASE": 20260801,
+    "t7_md5": "5fd895bf1560f2fe94715b8557b544a9"
+  },
+  "code_laptop": {
+    "train_srdndqn.py": "9a490505efa6d2b31a0999264973e86a",
+    "env_6g_branched.py": "6a998fae24fb55e3b645d66606b2a72a",
+    "env_6g_v5.py": "fc31bce91a3da89b735bcefdfc326d32",
+    "dndqn_branched.py": "d023c86cb486ff9b62b530c8568f8cbf"
+  },
+  "code_cloud": {
+    "train_srdndqn.py": "c3fb4393b1bc148e441c15a85400c1d1",
+    "env_6g_branched.py": "443386f642d19bb8eeffbc9c74b2d853",
+    "env_6g_v5.py": "fc31bce91a3da89b735bcefdfc326d32",
+    "dndqn_branched.py": "d023c86cb486ff9b62b530c8568f8cbf"
+  },
+  "toolchain": {
+    "python": "3.11.15",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.4.4"
+  },
+  "repeats": [
+    0,
+    1
+  ],
+  "metrics_compared": [
+    "HO",
+    "Power",
+    "Spec",
+    "RLF",
+    "Tput",
+    "RLF_std"
+  ],
+  "cells": [
+    {
+      "repeat": 0,
+      "metric": "HO",
+      "laptop": 94.13936100923146,
+      "cloud": 94.13936100923146,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 0,
+      "metric": "Power",
+      "laptop": 39.89639193952978,
+      "cloud": 39.89639193952978,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 0,
+      "metric": "Spec",
+      "laptop": 56.31956540694004,
+      "cloud": 56.31956540694004,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 0,
+      "metric": "RLF",
+      "laptop": 5.466666666666667,
+      "cloud": 5.466666666666667,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 0,
+      "metric": "Tput",
+      "laptop": 894.1554026690704,
+      "cloud": 894.1554026690704,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 0,
+      "metric": "RLF_std",
+      "laptop": 2.2861904265976323,
+      "cloud": 2.2861904265976323,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 1,
+      "metric": "HO",
+      "laptop": 94.10939087251185,
+      "cloud": 94.10939087251185,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 1,
+      "metric": "Power",
+      "laptop": 40.3923217073386,
+      "cloud": 40.3923217073386,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 1,
+      "metric": "Spec",
+      "laptop": 56.799729536147844,
+      "cloud": 56.799729536147844,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 1,
+      "metric": "RLF",
+      "laptop": 4.666666666666666,
+      "cloud": 4.666666666666666,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 1,
+      "metric": "Tput",
+      "laptop": 891.2525931947326,
+      "cloud": 891.2525931947326,
+      "abs_diff": 0.0
+    },
+    {
+      "repeat": 1,
+      "metric": "RLF_std",
+      "laptop": 1.3333333333333335,
+      "cloud": 1.3333333333333335,
+      "abs_diff": 0.0
+    }
+  ],
+  "worst_abs_diff": 0.0,
+  "equivalence": "PASS",
+  "sensitivity_min_abs_diff": 2.9028094743378006,
+  "sensitivity": "PASS",
+  "note": "'Override' is excluded from the comparison because it does not exist in the laptop version -- it is one of the things 29 Jul added. Every metric that exists in both is compared, at full float precision, for every repeat measured."
+}

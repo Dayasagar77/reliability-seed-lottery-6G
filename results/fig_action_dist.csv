@@ -1,0 +1,7 @@
+action_id,action_name,count,pct
+0,HOLD,12,0.06
+1,PWR_UP,28,0.15
+2,PWR_DOWN,1838,9.82
+3,RB_UP,25,0.13
+4,RB_DOWN,4860,25.97
+5,HANDOVER,11953,63.87

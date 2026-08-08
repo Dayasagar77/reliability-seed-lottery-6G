@@ -1,0 +1,136 @@
+{
+  "docx": "/home/claude/DnDQN_manuscript_rigor.docx",
+  "md5": "8b5679664ffdb920be563413aa59cd71",
+  "block": 212,
+  "caption": "TABLE XVII: Learned-shield ablation \u2014 can the measured guard be replaced by learning? Four arms, same five training seeds (0\u20134), 8\u00d710\u2075 steps each, identical controller, channel, reward and evaluation. \u00b1 is the population standard deviation across training seeds; guard-fire is the share of control steps on which the state guard overrides the emitted intent.",
+  "grid": [
+    [
+      "Controller",
+      "Sustained RLF (%)",
+      "Guard-fire (%)",
+      "Power saving (%)",
+      "Spectrum saving (%)",
+      "HO success (%)"
+    ],
+    [
+      "Measured state guard (proposed, VI-B)",
+      "4.08 \u00b1 0.42",
+      "5.12 \u00b1 0.50",
+      "60.84 \u00b1 10.33",
+      "58.39 \u00b1 18.42",
+      "94.55 \u00b1 0.67"
+    ],
+    [
+      "Shielded backup only (guard removed)",
+      "21.87 \u00b1 1.70",
+      "\u2014 (disabled)",
+      "83.26 \u00b1 6.21",
+      "56.63 \u00b1 31.23",
+      "87.42 \u00b1 1.74"
+    ],
+    [
+      "Shielded backup + guard",
+      "4.99 \u00b1 0.93",
+      "5.06 \u00b1 0.90",
+      "58.69 \u00b1 11.82",
+      "80.19 \u00b1 7.82",
+      "94.09 \u00b1 0.65"
+    ],
+    [
+      "Lagrangian constraint + guard",
+      "5.20 \u00b1 0.81",
+      "5.43 \u00b1 0.26",
+      "65.74 \u00b1 1.86",
+      "54.37 \u00b1 25.37",
+      "94.29 \u00b1 0.65"
+    ]
+  ],
+  "parsed": {
+    "postguard": {
+      "RLF": [
+        4.08,
+        0.42
+      ],
+      "Override": [
+        5.12,
+        0.5
+      ],
+      "Power": [
+        60.84,
+        10.33
+      ],
+      "Spec": [
+        58.39,
+        18.42
+      ],
+      "HO": [
+        94.55,
+        0.67
+      ]
+    },
+    "shielded": {
+      "RLF": [
+        21.87,
+        1.7
+      ],
+      "Override": "--- (disabled)",
+      "Power": [
+        83.26,
+        6.21
+      ],
+      "Spec": [
+        56.63,
+        31.23
+      ],
+      "HO": [
+        87.42,
+        1.74
+      ]
+    },
+    "shield_guard": {
+      "RLF": [
+        4.99,
+        0.93
+      ],
+      "Override": [
+        5.06,
+        0.9
+      ],
+      "Power": [
+        58.69,
+        11.82
+      ],
+      "Spec": [
+        80.19,
+        7.82
+      ],
+      "HO": [
+        94.09,
+        0.65
+      ]
+    },
+    "lagrangian": {
+      "RLF": [
+        5.2,
+        0.81
+      ],
+      "Override": [
+        5.43,
+        0.26
+      ],
+      "Power": [
+        65.74,
+        1.86
+      ],
+      "Spec": [
+        54.37,
+        25.37
+      ],
+      "HO": [
+        94.29,
+        0.65
+      ]
+    }
+  },
+  "mismatches_vs_prior_transcription": 1
+}

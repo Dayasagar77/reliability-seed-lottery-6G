@@ -1,0 +1,17 @@
+quantity,value,unit,basis
+T_floor,203.7517,Mbps,"p25 of pooled per-step throughput, published guarded arm, 5 seeds x R=4"
+p1,19.0861,Mbps,pooled per-step
+p5,39.8029,Mbps,pooled per-step
+p10,53.8728,Mbps,pooled per-step
+p15,64.5261,Mbps,pooled per-step
+p20,81.2324,Mbps,pooled per-step
+p25,203.7517,Mbps,pooled per-step
+p33,239.9026,Mbps,pooled per-step
+p50,311.4050,Mbps,pooled per-step
+p66,355.5604,Mbps,pooled per-step
+p75,608.5101,Mbps,pooled per-step
+p90,1198.5925,Mbps,pooled per-step
+p95,1464.2222,Mbps,pooled per-step
+p99,2173.1987,Mbps,pooled per-step
+mean,465.7096,Mbps,pooled per-step
+steps,906868,count,pooled

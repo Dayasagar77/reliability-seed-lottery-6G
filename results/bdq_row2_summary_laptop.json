@@ -1,0 +1,95 @@
+{
+  "n": 5,
+  "venue": "laptop",
+  "new": {
+    "HO": {
+      "mean": 91.53200000000001,
+      "sd_pop": 2.9780624573705623,
+      "sd_samp": 3.3295750479603234
+    },
+    "Power": {
+      "mean": 36.60600000000001,
+      "sd_pop": 15.685288138889893,
+      "sd_samp": 17.536685262614483
+    },
+    "Spec": {
+      "mean": 53.489999999999995,
+      "sd_pop": 30.713951227414555,
+      "sd_samp": 34.33924140105602
+    },
+    "RLF": {
+      "mean": 12.533999999999999,
+      "sd_pop": 5.264996106361333,
+      "sd_samp": 5.886444597547827
+    },
+    "Tput": {
+      "mean": 977.46,
+      "sd_pop": 444.25130095476374,
+      "sd_samp": 496.68805401378444
+    }
+  },
+  "published": {
+    "HO": {
+      "mean": 93.15,
+      "sd_pop": 3.3
+    },
+    "Power": {
+      "mean": 26.88,
+      "sd_pop": 15.2
+    },
+    "Spec": {
+      "mean": 54.99,
+      "sd_pop": 29.94
+    },
+    "RLF": {
+      "mean": 9.04,
+      "sd_pop": 4.23
+    },
+    "Tput": {
+      "mean": 981.6,
+      "sd_pop": 445.5
+    }
+  },
+  "seeds": [
+    {
+      "seed": "0",
+      "ckpt": "br_inc_s0.pt",
+      "ckpt_origin": "original-20260712",
+      "ckpt_md5": "b1e11a0b9e3b095c664bd428ae339431",
+      "torch": "2.5.1+cu121",
+      "measured_utc": "2026-08-01T16:06:54Z"
+    },
+    {
+      "seed": "1",
+      "ckpt": "br_inc_s1.pt",
+      "ckpt_origin": "original-20260712",
+      "ckpt_md5": "a40335eaeadfd191bad21882f3f73241",
+      "torch": "2.5.1+cu121",
+      "measured_utc": "2026-08-01T16:06:55Z"
+    },
+    {
+      "seed": "2",
+      "ckpt": "br_inc_regen_s2.pt",
+      "ckpt_origin": "regenerated-20260801",
+      "ckpt_md5": "67396c3b3258e188fb5c038f5dde7b87",
+      "torch": "2.5.1+cu121",
+      "measured_utc": "2026-08-01T16:06:55Z"
+    },
+    {
+      "seed": "3",
+      "ckpt": "br_inc_regen_s3.pt",
+      "ckpt_origin": "regenerated-20260801",
+      "ckpt_md5": "5970682e6543438ed4a170a358a33700",
+      "torch": "2.5.1+cu121",
+      "measured_utc": "2026-08-01T16:07:13Z"
+    },
+    {
+      "seed": "4",
+      "ckpt": "br_inc_regen_s4.pt",
+      "ckpt_origin": "regenerated-20260801",
+      "ckpt_md5": "1b562957f0cfe970250b6129791a61f4",
+      "torch": "2.5.1+cu121",
+      "measured_utc": "2026-08-01T16:07:13Z"
+    }
+  ]
+}

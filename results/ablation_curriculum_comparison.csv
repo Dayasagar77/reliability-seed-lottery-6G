@@ -1,0 +1,3 @@
+Condition,HO_mean,HO_std,Pwr_mean,Pwr_std,Spec_mean,Spec_std
+Phase1->Phase2 (curriculum),90.67,2.27,49.0,1.34,70.55,1.29
+Random init (ablation),90.53,2.93,52.14,2.08,71.78,1.03

@@ -1,0 +1,609 @@
+{
+  "venue": "cloud",
+  "R": 8,
+  "BASE": 20260801,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "torch": [
+    "2.13.0+cu130"
+  ],
+  "summary_md5": "8ebe507f2718dcdad16615fe3ac7a5a1",
+  "decompose_md5": "4d30eacb161d92df09821ef755569f85",
+  "order": [
+    "RLF",
+    "Override",
+    "Power",
+    "Spec",
+    "HO"
+  ],
+  "quantum": {
+    "RLF": 0.1333333432768761,
+    "Override": null,
+    "Power": null,
+    "Spec": null,
+    "HO": null,
+    "Tput": null
+  },
+  "arms": {
+    "postguard": {
+      "label": "Measured state guard (proposed, VI-B)",
+      "cells": {
+        "RLF": {
+          "render": "4.93 ($\\sigma_{train} < 0.27$)",
+          "mean": 4.9299975,
+          "F": 1.4850077788001614,
+          "p": 0.23339283688961543,
+          "v_train": 0.0029213650178571034,
+          "sd_train": null,
+          "sd_train_hi_975": 0.26417320280211243,
+          "sd_train_hi_975_roundedup": 0.27,
+          "printed_bound": 0.27,
+          "bound_widened_to_quantum": false,
+          "sd_resid": 0.21951467230493485,
+          "resolvable": false,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            5.0,
+            4.966675,
+            4.983325000000001,
+            4.933325,
+            4.766662500000001
+          ],
+          "structural_zero": false
+        },
+        "Override": {
+          "render": "5.16 $\\pm$ 0.53",
+          "mean": 5.15827,
+          "F": 982.6515253264973,
+          "p": 0.0,
+          "v_train": 0.2835135138214285,
+          "sd_train": 0.5324598706207149,
+          "sd_train_hi_975": 1.550831332266162,
+          "sd_train_hi_975_roundedup": 1.56,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.048067684607973164,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            4.3422875,
+            5.41205,
+            5.764725,
+            5.2707,
+            5.0015875
+          ],
+          "structural_zero": false
+        },
+        "Power": {
+          "render": "60.73 $\\pm$ 11.56",
+          "mean": 60.731629999999996,
+          "F": 26190.33426250546,
+          "p": 0.0,
+          "v_train": 133.68737584821432,
+          "sd_train": 11.562325711041629,
+          "sd_train_hi_975": 33.661632770228,
+          "sd_train_hi_975_roundedup": 33.67,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.20208215448354558,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            40.363299999999995,
+            65.96192500000001,
+            68.43833749999999,
+            66.1115375,
+            62.78305
+          ],
+          "structural_zero": false
+        },
+        "Spec": {
+          "render": "58.28 $\\pm$ 20.76",
+          "mean": 58.278945,
+          "F": 71440.29429849924,
+          "p": 0.0,
+          "v_train": 431.0903695536428,
+          "sd_train": 20.762715852066243,
+          "sd_train_hi_975": 60.446270020639055,
+          "sd_train_hi_975_roundedup": 60.45,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.21971543950580438,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            56.6891625,
+            81.0113625,
+            27.964750000000002,
+            73.9120375,
+            51.8174125
+          ],
+          "structural_zero": false
+        },
+        "HO": {
+          "render": "94.36 $\\pm$ 0.24",
+          "mean": 94.35791750000001,
+          "F": 9.285467278357688,
+          "p": 6.600245850929554e-05,
+          "v_train": 0.05775902314285534,
+          "sd_train": 0.24033106986583183,
+          "sd_train_hi_975": 0.7359682360628099,
+          "sd_train_hi_975_roundedup": 0.74,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.23615460027733387,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            94.35056250000001,
+            94.31825,
+            93.9602875,
+            94.5674875,
+            94.593
+          ],
+          "structural_zero": false
+        }
+      }
+    },
+    "shielded": {
+      "label": "Shielded backup only (guard removed)",
+      "cells": {
+        "RLF": {
+          "render": "21.14 $\\pm$ 1.65",
+          "mean": 21.1433375,
+          "F": 40.10674267368041,
+          "p": 3.3071878569046476e-11,
+          "v_train": 2.7290554285000006,
+          "sd_train": 1.6519852991173984,
+          "sd_train_hi_975": 4.863310143466128,
+          "sd_train_hi_975_roundedup": 4.87,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.7471801917041145,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            23.0500125,
+            21.4,
+            21.4333375,
+            21.4,
+            18.4333375
+          ],
+          "structural_zero": false
+        },
+        "Override": {
+          "render": "--- (disabled)",
+          "structural_zero": true,
+          "mean": 0.0,
+          "n_evaluations": 40,
+          "max_abs": 0.0
+        },
+        "Power": {
+          "render": "83.17 $\\pm$ 7.10",
+          "mean": 83.173265,
+          "F": 3893.7327113135157,
+          "p": 0.0,
+          "v_train": 50.34569358455363,
+          "sd_train": 7.095469934018016,
+          "sd_train_hi_975": 20.659177406642545,
+          "sd_train_hi_975_roundedup": 20.66,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.32166133890532106,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            91.348375,
+            82.847425,
+            83.72336250000001,
+            86.0063125,
+            71.94085
+          ],
+          "structural_zero": false
+        },
+        "Spec": {
+          "render": "56.70 $\\pm$ 34.86",
+          "mean": 56.70127500000001,
+          "F": 152112.4737127552,
+          "p": 0.0,
+          "v_train": 1215.109747085607,
+          "sd_train": 34.85842433452216,
+          "sd_train_hi_975": 101.48262137426777,
+          "sd_train_hi_975_roundedup": 101.49,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.25279690863987453,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            3.929175,
+            45.333925,
+            58.5853375,
+            89.4011375,
+            86.2568
+          ],
+          "structural_zero": false
+        },
+        "HO": {
+          "render": "87.29 $\\pm$ 2.25",
+          "mean": 87.28766,
+          "F": 140.6526144295825,
+          "p": 0.0,
+          "v_train": 5.0808819881964435,
+          "sd_train": 2.254081184916915,
+          "sd_train_hi_975": 6.582931821732285,
+          "sd_train_hi_975_roundedup": 6.59,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.5394982150605826,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            84.41399999999999,
+            85.82735,
+            90.1793625,
+            87.42715000000001,
+            88.5904375
+          ],
+          "structural_zero": false
+        }
+      }
+    },
+    "shield_guard": {
+      "label": "Shielded backup + guard",
+      "cells": {
+        "RLF": {
+          "render": "4.93 ($\\sigma_{train} < 0.21$)",
+          "mean": 4.93,
+          "F": 1.75234274128495,
+          "p": 0.16663192776402425,
+          "v_train": 0.002349388821428606,
+          "sd_train": null,
+          "sd_train_hi_975": 0.207981892134025,
+          "sd_train_hi_975_roundedup": 0.21,
+          "printed_bound": 0.21,
+          "bound_widened_to_quantum": false,
+          "sd_resid": 0.15805730583738098,
+          "resolvable": false,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            4.85,
+            4.983325,
+            5.0,
+            4.85,
+            4.966675
+          ],
+          "structural_zero": false
+        },
+        "Override": {
+          "render": "5.08 $\\pm$ 1.00",
+          "mean": 5.077249999999999,
+          "F": 3228.0018348907915,
+          "p": 0.0,
+          "v_train": 1.0026647798392863,
+          "sd_train": 1.0013315034688992,
+          "sd_train_hi_975": 2.91554593743558,
+          "sd_train_hi_975_roundedup": 2.92,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.04985666992202761,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            3.9357499999999996,
+            5.9673125,
+            5.6719875,
+            4.0384125,
+            5.7727875
+          ],
+          "structural_zero": false
+        },
+        "Power": {
+          "render": "58.52 $\\pm$ 13.16",
+          "mean": 58.520155,
+          "F": 40225.7516749107,
+          "p": 0.0,
+          "v_train": 173.26742279560716,
+          "sd_train": 13.163108401726667,
+          "sd_train_hi_975": 38.32179864640786,
+          "sd_train_hi_975_roundedup": 38.33,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.18563367627637867,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            55.5140875,
+            67.46097499999999,
+            68.220425,
+            36.778025,
+            64.6272625
+          ],
+          "structural_zero": false
+        },
+        "Spec": {
+          "render": "80.37 $\\pm$ 8.71",
+          "mean": 80.369245,
+          "F": 7667.125093478056,
+          "p": 0.0,
+          "v_train": 75.92876132360716,
+          "sd_train": 8.713711110864713,
+          "sd_train_hi_975": 25.369435572535146,
+          "sd_train_hi_975_roundedup": 25.37,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.2814882040474577,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            70.8671125,
+            85.157425,
+            89.72145,
+            71.2561125,
+            84.844125
+          ],
+          "structural_zero": false
+        },
+        "HO": {
+          "render": "94.22 $\\pm$ 0.44",
+          "mean": 94.22324499999999,
+          "F": 38.37734770546328,
+          "p": 5.548828063695055e-11,
+          "v_train": 0.18999720673213769,
+          "sd_train": 0.43588669024430843,
+          "sd_train_hi_975": 1.2838695151657193,
+          "sd_train_hi_975_roundedup": 1.29,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.20165749184660844,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            94.816925,
+            93.7964125,
+            94.33541249999999,
+            94.395325,
+            93.77215000000001
+          ],
+          "structural_zero": false
+        }
+      }
+    },
+    "lagrangian": {
+      "label": "Lagrangian constraint + guard",
+      "cells": {
+        "RLF": {
+          "render": "4.96 ($\\sigma_{train} < 0.14$)",
+          "mean": 4.963330000000001,
+          "F": 0.49167652757498626,
+          "p": 0.7418218521848151,
+          "v_train": -0.0014926031607143159,
+          "sd_train": null,
+          "sd_train_hi_975": 0.09643621239662328,
+          "sd_train_hi_975_roundedup": 0.1,
+          "printed_bound": 0.14,
+          "bound_widened_to_quantum": true,
+          "sd_resid": 0.15326644703167885,
+          "resolvable": false,
+          "positive": false,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            4.9666625,
+            4.9999875,
+            4.9333375,
+            4.916675,
+            4.9999875
+          ],
+          "structural_zero": false
+        },
+        "Override": {
+          "render": "5.46 $\\pm$ 0.31",
+          "mean": 5.463492499999999,
+          "F": 626.8425845098927,
+          "p": 0.0,
+          "v_train": 0.09654535903571439,
+          "sd_train": 0.31071749071417654,
+          "sd_train_hi_975": 0.905220084060495,
+          "sd_train_hi_975_roundedup": 0.91,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.03512999913586188,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            5.3967375,
+            5.581375,
+            5.8080375,
+            5.55845,
+            4.9728625
+          ],
+          "structural_zero": false
+        },
+        "Power": {
+          "render": "65.68 $\\pm$ 1.98",
+          "mean": 65.68207,
+          "F": 1935.1993417483095,
+          "p": 0.0,
+          "v_train": 3.9301827526250097,
+          "sd_train": 1.982468852876385,
+          "sd_train_hi_975": 5.772820273825035,
+          "sd_train_hi_975_roundedup": 5.78,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.1274972303620531,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            63.088049999999996,
+            68.0916875,
+            66.3907375,
+            66.5499875,
+            64.2898875
+          ],
+          "structural_zero": false
+        },
+        "Spec": {
+          "render": "54.55 $\\pm$ 28.70",
+          "mean": 54.549369999999996,
+          "F": 179071.99787221872,
+          "p": 0.0,
+          "v_train": 823.5253931504825,
+          "sd_train": 28.69713214156569,
+          "sd_train_hi_975": 83.54534033292889,
+          "sd_train_hi_975_roundedup": 83.55,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.19180983165027216,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            26.4782375,
+            50.290225,
+            27.917875000000002,
+            79.52973750000001,
+            88.530775
+          ],
+          "structural_zero": false
+        },
+        "HO": {
+          "render": "94.30 $\\pm$ 0.38",
+          "mean": 94.29607,
+          "F": 14.768349817334771,
+          "p": 1.3271625818322974e-06,
+          "v_train": 0.14399665471428552,
+          "sd_train": 0.3794689113936549,
+          "sd_train_hi_975": 1.1395728900311024,
+          "sd_train_hi_975_roundedup": 1.14,
+          "printed_bound": null,
+          "bound_widened_to_quantum": null,
+          "sd_resid": 0.28925458321470454,
+          "resolvable": true,
+          "positive": true,
+          "df": [
+            4,
+            7,
+            28
+          ],
+          "seed_means": [
+            93.8996875,
+            94.7931625,
+            93.94637499999999,
+            94.24690000000001,
+            94.594225
+          ],
+          "structural_zero": false
+        }
+      }
+    }
+  },
+  "gate2_failures": [],
+  "gate3_flags": [
+    {
+      "arm": "lagrangian",
+      "metric": "RLF",
+      "kind": "bound",
+      "value": 0.1,
+      "quantum": 0.1333333432768761
+    }
+  ],
+  "rows": [
+    "| Measured state guard (proposed, VI-B) | 4.93 ($\\sigma_{train} < 0.27$) | 5.16 $\\pm$ 0.53 | 60.73 $\\pm$ 11.56 | 58.28 $\\pm$ 20.76 | 94.36 $\\pm$ 0.24 |",
+    "| Shielded backup only (guard removed) | 21.14 $\\pm$ 1.65 | --- (disabled) | 83.17 $\\pm$ 7.10 | 56.70 $\\pm$ 34.86 | 87.29 $\\pm$ 2.25 |",
+    "| Shielded backup + guard | 4.93 ($\\sigma_{train} < 0.21$) | 5.08 $\\pm$ 1.00 | 58.52 $\\pm$ 13.16 | 80.37 $\\pm$ 8.71 | 94.22 $\\pm$ 0.44 |",
+    "| Lagrangian constraint + guard | 4.96 ($\\sigma_{train} < 0.14$) | 5.46 $\\pm$ 0.31 | 65.68 $\\pm$ 1.98 | 54.55 $\\pm$ 28.70 | 94.30 $\\pm$ 0.38 |"
+  ]
+}

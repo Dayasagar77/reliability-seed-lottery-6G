@@ -1,0 +1,6 @@
+Method,HO_pct,Power_pct,Spec_pct,Throughput,on_pareto_front
+3GPP A3,98.5,0.0,0.0,1045.4,True
+PPO,96.8,4.8,0.0,644.2,True
+DDQN+PER,95.5,40.3,20.7,487.0,True
+Standard DQN,96.2,35.1,24.9,474.7,True
+Proposed (n=3),95.5,48.0,68.6,361.5,True

@@ -1,0 +1,225 @@
+{
+  "what": "OD-1 narrative half: blocks [144], [145], [153]/[154]/[156], [158] regenerated at k = 5 on the R = 8 CRN grid, estimator imported unmodified from tablevii_decompose.py.",
+  "grid_csv": "/root/work/exp/results/tablevii_r8_laptop.csv",
+  "grid_md5": "2234f1ccfd763518a0027712274f22a8",
+  "torch": "2.5.1+cu121",
+  "k": 5,
+  "R": 8,
+  "estimator": {
+    "paths": [
+      "/home/claude/tablevii_decompose.py",
+      "/root/work/exp/bridge_out/tablevii_decompose.py"
+    ],
+    "md5": "4d30eacb161d92df09821ef755569f85",
+    "identical": true,
+    "functions": [
+      "load",
+      "decompose",
+      "cohens_d",
+      "welch_pair",
+      "rd",
+      "ru"
+    ]
+  },
+  "sign_convention": "proposed arm first: every t and d is (proposed - other)",
+  "reported_test": "CRN-corrected Welch on the k = 5 seed means (t_corr / p_corr)",
+  "gates": {
+    "grid_and_negative_control": "PASS",
+    "implementation_identity_stdout": "PASS",
+    "locked_table_vii": "PASS",
+    "sign_and_conservatism": "PASS",
+    "crossing_registry": "PASS"
+  },
+  "block_144": {
+    "sigma_pairs": [
+      {
+        "metric": "RLF",
+        "published_flat": 4.18,
+        "published_guarded": 0.92,
+        "flat": "3.89",
+        "guarded": "<0.17",
+        "flat_bounded": false,
+        "guarded_bounded": true,
+        "mixed_basis": true
+      },
+      {
+        "metric": "Power",
+        "published_flat": 18.28,
+        "published_guarded": 4.38,
+        "flat": "20.70",
+        "guarded": "5.02",
+        "flat_bounded": false,
+        "guarded_bounded": false,
+        "mixed_basis": false
+      },
+      {
+        "metric": "HO",
+        "published_flat": 2.02,
+        "published_guarded": 0.45,
+        "flat": "1.74",
+        "guarded": "0.29",
+        "flat_bounded": false,
+        "guarded_bounded": false,
+        "mixed_basis": false
+      }
+    ],
+    "tests": {
+      "guarded vs flat [RLF]": {
+        "mean_a": 4.913327499999999,
+        "mean_b": 10.1100025,
+        "t": -2.9760940455646425,
+        "p": 0.04087095774467208,
+        "d": -1.8822471429698409,
+        "t_corr": -2.9563697725184075,
+        "p_corr": 0.04032596704430724,
+        "df_corr": 4.1094519453889555,
+        "se_naive": 1.746139376121112,
+        "se_corr": 1.7577892482553599,
+        "published": [
+          -3.2,
+          0.0288,
+          -2.03
+        ]
+      },
+      "guarded vs flat [Power]": {
+        "mean_a": 63.47634249999999,
+        "mean_b": 27.65059,
+        "t": 3.7615995293467197,
+        "p": 0.01614388971389637,
+        "d": 2.3790444316306045,
+        "t_corr": 3.7612924114894217,
+        "p_corr": 0.016138936481914,
+        "df_corr": 4.470186374554531,
+        "se_naive": 9.524074059585464,
+        "se_corr": 9.524851721329867,
+        "published": [
+          3.86,
+          0.0148,
+          2.44
+        ]
+      },
+      "guarded vs flat [HO]": {
+        "mean_a": 94.7106575,
+        "mean_b": 92.5311775,
+        "t": 2.7533908108135656,
+        "p": 0.048064508399814465,
+        "d": 1.7413972501497281,
+        "t_corr": 2.714536259376453,
+        "p_corr": 0.047184026729264694,
+        "df_corr": 4.481489303913103,
+        "se_naive": 0.7915621681602149,
+        "se_corr": 0.8028922039525968,
+        "published": [
+          2.68,
+          0.0499,
+          1.7
+        ]
+      }
+    }
+  },
+  "block_145": {
+    "tests": {
+      "guarded vs binary [RLF]": {
+        "mean_a": 4.913327499999999,
+        "mean_b": 18.28666,
+        "t": -4.801125619789462,
+        "p": 0.008636830187972873,
+        "d": -3.0364984582244556,
+        "t_corr": -4.777534800532794,
+        "p_corr": 0.008368573968767334,
+        "df_corr": 4.080164857927861,
+        "published": [
+          -4.56,
+          0.0093,
+          -2.88
+        ]
+      },
+      "guarded vs incremental [RLF]": {
+        "mean_a": 4.913327499999999,
+        "mean_b": 12.4899925,
+        "t": -2.881087532036456,
+        "p": 0.04495208366913187,
+        "d": -1.8221597479097071,
+        "t_corr": -2.854134820900396,
+        "p_corr": 0.044208544928490356,
+        "df_corr": 4.153307511059723,
+        "published": [
+          -2.04,
+          0.1044,
+          -1.29
+        ]
+      }
+    },
+    "bdq_reversal": {
+      "bdq_rlf_mean": 12.4899925,
+      "bdq_rlf_sigma": "5.88",
+      "flat_rlf_mean": 10.1100025,
+      "flat_rlf_sigma": "3.89",
+      "published_claim": "BDQ improves the mean over flat (9.04 +- 4.23%)",
+      "verdict": "FALSE \u2014 BDQ is worse than flat by 2.38 pp",
+      "confound": "three of five BDQ seeds carry regenerated weights AND the protocol changed; the two effects are inseparable"
+    },
+    "binary_rlf": "18.29 +- 6.22",
+    "spectrum_sigma": {
+      "bdq": "34.57",
+      "proposed": "19.17"
+    }
+  },
+  "crossings": [
+    {
+      "test": "guarded vs flat [RLF]",
+      "published_p": 0.0288,
+      "p_corr": 0.04032596704430724,
+      "published_sig": true,
+      "now_sig": true,
+      "crossed": false,
+      "registered": false,
+      "verdict": "did not cross, as registered"
+    },
+    {
+      "test": "guarded vs flat [Power]",
+      "published_p": 0.0148,
+      "p_corr": 0.016138936481914,
+      "published_sig": true,
+      "now_sig": true,
+      "crossed": false,
+      "registered": false,
+      "verdict": "did not cross, as registered"
+    },
+    {
+      "test": "guarded vs flat [HO]",
+      "published_p": 0.0499,
+      "p_corr": 0.047184026729264694,
+      "published_sig": true,
+      "now_sig": true,
+      "crossed": false,
+      "registered": false,
+      "verdict": "did not cross, as registered"
+    },
+    {
+      "test": "guarded vs binary [RLF]",
+      "published_p": 0.0093,
+      "p_corr": 0.008368573968767334,
+      "published_sig": true,
+      "now_sig": true,
+      "crossed": false,
+      "registered": false,
+      "verdict": "did not cross, as registered"
+    },
+    {
+      "test": "guarded vs incremental [RLF]",
+      "published_p": 0.1044,
+      "p_corr": 0.044208544928490356,
+      "published_sig": false,
+      "now_sig": true,
+      "crossed": true,
+      "registered": true,
+      "verdict": "crossed, as registered"
+    }
+  ],
+  "table_ix_readback": {
+    "json": "/root/work/exp/results/od1_tableix.json",
+    "md5": "4659331be53aadd5a33fc4ed95232dc3"
+  },
+  "failures": []
+}

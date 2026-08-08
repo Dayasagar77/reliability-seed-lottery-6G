@@ -1,0 +1,2 @@
+method,seed,steps,pipeline,HO,Power,Spec,RLF,Tput,train_min
+DDQN+PER,2,800000,laptop-singlepass,90.13,53.74,75.40,11.73,606.6,36.3

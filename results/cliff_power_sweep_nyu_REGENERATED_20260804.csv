@@ -1,0 +1,21 @@
+# REGENERATED 2026-08-04 by re-running cliff_sweep_nyu.py's logic against the current
+# env_6g_nyu / env_6g_v5 / channel_model and 6G_Handover_Training_Data_v3.csv.
+# Pool 3251 (slow 576 + med 2675), seeds [0,1,2,3,4], 150 episodes, array_gain_dbi=15.0.
+# NOT a native run: torch, gymnasium and scipy were stubbed (the Linux VM has none, no network).
+#   - gymnasium stub cannot affect results: env_6g_v5.py:132 creates its own self.rng and the
+#     evaluators call reset() with no seed, so gymnasium's np_random is never used for fading.
+#   - torch is unused by the A3 rule (no network is loaded).
+#   - scipy.special.gamma was replaced by math.gamma, the same function.
+# RLF reproduces exactly against comparative_matched_nyu.csv (3.73). HO_succ does NOT reconcile
+# across the three existing evaluations (96.22 / 96.61 / 97.14) and is UNRESOLVED.
+# DO NOT PRINT THESE VALUES until `python cliff_sweep_nyu.py` has been run natively on Windows
+# and this file has been diffed against its output.
+pt_dbm,RLF_mean,RLF_std,HO_succ
+23,22.80,2.17,86.77
+24,17.07,3.39,89.38
+25,15.73,2.48,90.68
+26,11.87,2.44,92.10
+27,9.07,1.72,93.93
+28,5.87,1.07,95.20
+29,6.13,1.65,96.64
+30,3.60,1.77,97.05

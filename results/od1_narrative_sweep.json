@@ -1,0 +1,2012 @@
+{
+  "manuscript_md5": "ddea24ec8ad709ab02356486b18c46e2",
+  "n_blocks": 277,
+  "n_units": 757,
+  "owned_blocks": [
+    143,
+    144,
+    145,
+    153,
+    154,
+    156,
+    158
+  ],
+  "hits": {
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 4.61": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...oss five training seeds the guarded controller reaches 4.61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0...."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...e measured shadow \u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the ..."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c2",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...-class reliability while saving most of the resources. 4.61 \u00b1 0.92% sustained RLF against the always-max-power A3 ..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...38, HO \u03c3 2.02 \u2192 0.45. Welch tests (n = 5 per arm): RLF 4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.6..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...nst the guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsafe presses on a ..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...blocked re-derived pool \u2014 they do (RLF 4.21 \u00b1 0.26% vs 4.61 \u00b1 0.92% published, power 65.18 vs 63.61%). Blockage is..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...worst-case shadow depth. Across five seeds it delivers 4.61 \u00b1 0.92% sustained RLF (A3-class reliability), 95.18 \u00b1 ..."
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 0.92": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...e training seeds the guarded controller reaches 4.61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% han..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...red shadow \u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the oracle ..."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c2",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...reliability while saving most of the resources. 4.61 \u00b1 0.92% sustained RLF against the always-max-power A3 rule\u2019s ..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...rded axes. Across five retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch tests (..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsafe presses on a fine-gr..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... re-derived pool \u2014 they do (RLF 4.21 \u00b1 0.26% vs 4.61 \u00b1 0.92% published, power 65.18 vs 63.61%). Blockage is then a..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...ase shadow depth. Across five seeds it delivers 4.61 \u00b1 0.92% sustained RLF (A3-class reliability), 95.18 \u00b1 0.45% h..."
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 63.61": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...eline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75% of the oracle budget), and 8..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...\u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the oracle budget), 80...."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c3",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...aluation seeds of a deterministic rule) \u2014 while saving 63.61 \u00b1 4.38% power and 80.63% spectrum where A3 saves nothi..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs ..."
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...branching is the variance collapse and the power axis (63.61 \u00b1 4.38 vs 26.88 \u00b1 15.20). We think the fine-dial arm\u2019s..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...4.47% saving against the guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsa..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...4.21 \u00b1 0.26% vs 4.61 \u00b1 0.92% published, power 65.18 vs 63.61%). Blockage is then applied as an additional serving-l..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...A3-class reliability), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75.3% of the oracle ceiling), an..."
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 4.38": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...1.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75% of the oracle budget), and 80.63% s..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...B, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the oracle budget), 80.63% spe..."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c3",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... seeds of a deterministic rule) \u2014 while saving 63.61 \u00b1 4.38% power and 80.63% spectrum where A3 saves nothing. Its..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch tests (n = 5 per arm): RLF 4...."
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...g is the variance collapse and the power axis (63.61 \u00b1 4.38 vs 26.88 \u00b1 15.20). We think the fine-dial arm\u2019s very l..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ving against the guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsafe pres..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... reliability), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75.3% of the oracle ceiling), and 80.63..."
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 80.63": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...1 \u00b1 4.38% power saving (75% of the oracle budget), and 80.63% spectrum saving \u2014 with reliability comparable to the ..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "....61 \u00b1 4.38% power saving (75.3% of the oracle budget), 80.63% spectrum saving, 95.18 \u00b1 0.45% handover success \u2014 rel..."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c4",
+        "snippet": "80.63 \u00b1 17.02"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c3",
+        "snippet": "80.63 \u00b1 17.02"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...rministic rule) \u2014 while saving 63.61 \u00b1 4.38% power and 80.63% spectrum where A3 saves nothing. Its power saving is ..."
+      },
+      {
+        "block": 146,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ectrum saving keeps a wide spread in the proposed arm (80.63 \u00b1 17.02; one seed lands at 47.26%, with correspondingl..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c3",
+        "snippet": "80.63 \u00b1 17.02"
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... 4.38% power saving (75.3% of the oracle ceiling), and 80.63% spectrum saving, collapsing cross-seed reliability va..."
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 75.3": [
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...e seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the oracle budget), 80.63% spectrum saving, 95.18 ..."
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...% spectrum where A3 saves nothing. Its power saving is 75.3% of the (non-causal) oracle ceiling of Section III-C. ..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75.3% of the oracle ceiling), and 80.63% spectrum saving, c..."
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 505.9": [
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c5",
+        "snippet": "505.9 \u00b1 223.5"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... all 66 RBs at maximum power; the guarded controller\u2019s 505.9 Mbps reflects the resources it returns."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c5",
+        "snippet": "505.9"
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 3.73": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...ility comparable to the always-max-power 3GPP A3 rule (3.73 \u00b1 1.44%; overlapping seed ranges), which saves nothing..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r5c4",
+        "snippet": "3.73 \u00b1 1.44"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...% sustained RLF against the always-max-power A3 rule\u2019s 3.73 \u00b1 1.44% \u2014 overlapping ranges (no formal test is run be..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r6c4",
+        "snippet": "3.73 \u00b1 1.44"
+      },
+      {
+        "block": 181,
+        "kind": "cell",
+        "loc": "r7c4",
+        "snippet": "3.73"
+      },
+      {
+        "block": 198,
+        "kind": "cell",
+        "loc": "r1c4",
+        "snippet": "3.73 \u00b1 1.77"
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 1.44": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...omparable to the always-max-power 3GPP A3 rule (3.73 \u00b1 1.44%; overlapping seed ranges), which saves nothing \u2014 whil..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r5c4",
+        "snippet": "3.73 \u00b1 1.44"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ined RLF against the always-max-power A3 rule\u2019s 3.73 \u00b1 1.44% \u2014 overlapping ranges (no formal test is run because t..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r6c4",
+        "snippet": "3.73 \u00b1 1.44"
+      }
+    ],
+    "[143] finding 1 (registered in ledger 5.3, NOT in the OD-2 grouping) :: 1902": [
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r5c5",
+        "snippet": "1902.0"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...the (non-causal) oracle ceiling of Section III-C. A3\u2019s 1902 Mbps throughput is the direct price of holding all 66 ..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r6c5",
+        "snippet": "1902.0"
+      }
+    ],
+    "[144] sigma pairs :: 4.18": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...oller reaches 4.61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...oss-seed variance collapsed on the guarded axes (RLF \u03c3 4.18 \u2192 0.92; power \u03c3 18.28 \u2192 4.38). An honest ablation isol..."
+      },
+      {
+        "block": 96,
+        "kind": "cell",
+        "loc": "r6c4",
+        "snippet": "11.47 \u00b1 4.18"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r1c4",
+        "snippet": "11.47 \u00b1 4.18"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...the guarded axes. Across five retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch ..."
+      },
+      {
+        "block": 194,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...18%, still below the unblocked flat baseline\u2019s 11.47 \u00b1 4.18% (Table VII). The honest boundary is equally plain: th..."
+      }
+    ],
+    "[144] sigma pairs :: 0.92": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...e training seeds the guarded controller reaches 4.61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% han..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...red shadow \u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the oracle ..."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c2",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...reliability while saving most of the resources. 4.61 \u00b1 0.92% sustained RLF against the always-max-power A3 rule\u2019s ..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...rded axes. Across five retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch tests (..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsafe presses on a fine-gr..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... re-derived pool \u2014 they do (RLF 4.21 \u00b1 0.26% vs 4.61 \u00b1 0.92% published, power 65.18 vs 63.61%). Blockage is then a..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...ase shadow depth. Across five seeds it delivers 4.61 \u00b1 0.92% sustained RLF (A3-class reliability), 95.18 \u00b1 0.45% h..."
+      }
+    ],
+    "[144] sigma pairs :: 18.28": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...tery on the guarded axes (RLF \u03c3: 4.18 \u2192 0.92; power \u03c3: 18.28 \u2192 4.38). Ablations show both ingredients are necessary..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...lapsed on the guarded axes (RLF \u03c3 4.18 \u2192 0.92; power \u03c3 18.28 \u2192 4.38). An honest ablation isolates the mechanism: th..."
+      },
+      {
+        "block": 96,
+        "kind": "cell",
+        "loc": "r6c2",
+        "snippet": "27.37 \u00b1 18.28"
+      },
+      {
+        "block": 97,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ignature: per-seed power saving spans 0.31\u201353.75% (\u03c3 = 18.28), and power saving and RLF are correlated at r = 0.978..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r1c2",
+        "snippet": "27.37 \u00b1 18.28"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...oss five retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch tests (n = 5 per arm):..."
+      }
+    ],
+    "[144] sigma pairs :: 4.38": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...1.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75% of the oracle budget), and 80.63% s..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...B, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the oracle budget), 80.63% spe..."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c3",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... seeds of a deterministic rule) \u2014 while saving 63.61 \u00b1 4.38% power and 80.63% spectrum where A3 saves nothing. Its..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch tests (n = 5 per arm): RLF 4...."
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...g is the variance collapse and the power axis (63.61 \u00b1 4.38 vs 26.88 \u00b1 15.20). We think the fine-dial arm\u2019s very l..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ving against the guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsafe pres..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... reliability), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75.3% of the oracle ceiling), and 80.63..."
+      }
+    ],
+    "[144] sigma pairs :: 2.02": [
+      {
+        "block": 96,
+        "kind": "cell",
+        "loc": "r6c1",
+        "snippet": "92.40 \u00b1 2.02"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r1c1",
+        "snippet": "92.40 \u00b1 2.02"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...s, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch tests (n = 5 per arm): RLF 4.61 vs 11.47..."
+      },
+      {
+        "block": 164,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ong \u2014 and handover frequency is essentially identical (2.02\u20132.05 events per episode). Reliability differences betw..."
+      }
+    ],
+    "[144] sigma pairs :: 0.45": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75% of ..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...of the oracle budget), 80.63% spectrum saving, 95.18 \u00b1 0.45% handover success \u2014 reliability comparable to the alwa..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c1",
+        "snippet": "95.18 \u00b1 0.45"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...\u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 4.38, HO \u03c3 2.02 \u2192 0.45. Welch tests (n = 5 per arm): RLF 4.61 vs 11.47, t = \u2212..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c1",
+        "snippet": "95.18 \u00b1 0.45"
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... \u00b1 0.92% sustained RLF (A3-class reliability), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75.3% o..."
+      }
+    ],
+    "[144] RLF test :: 4.61": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...oss five training seeds the guarded controller reaches 4.61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0...."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...e measured shadow \u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the ..."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c2",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...-class reliability while saving most of the resources. 4.61 \u00b1 0.92% sustained RLF against the always-max-power A3 ..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...38, HO \u03c3 2.02 \u2192 0.45. Welch tests (n = 5 per arm): RLF 4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.6..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...nst the guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsafe presses on a ..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c4",
+        "snippet": "4.61 \u00b1 0.92"
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...blocked re-derived pool \u2014 they do (RLF 4.21 \u00b1 0.26% vs 4.61 \u00b1 0.92% published, power 65.18 vs 63.61%). Blockage is..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...worst-case shadow depth. Across five seeds it delivers 4.61 \u00b1 0.92% sustained RLF (A3-class reliability), 95.18 \u00b1 ..."
+      }
+    ],
+    "[144] RLF test :: 11.47": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...ed controller reaches 4.61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38..."
+      },
+      {
+        "block": 96,
+        "kind": "cell",
+        "loc": "r6c4",
+        "snippet": "11.47 \u00b1 4.18"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r1c4",
+        "snippet": "11.47 \u00b1 4.18"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... 2.02 \u2192 0.45. Welch tests (n = 5 per arm): RLF 4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.3..."
+      },
+      {
+        "block": 194,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "....05 \u00b1 0.18%, still below the unblocked flat baseline\u2019s 11.47 \u00b1 4.18% (Table VII). The honest boundary is equally pl..."
+      }
+    ],
+    "[144] RLF test :: 3.20": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": ".... Welch tests (n = 5 per arm): RLF 4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86..."
+      },
+      {
+        "block": 193,
+        "kind": "cell",
+        "loc": "r1c3",
+        "snippet": "3.20 \u00b1 1.36"
+      }
+    ],
+    "[144] RLF test :: 0.0288": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...sts (n = 5 per arm): RLF 4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148..."
+      }
+    ],
+    "[144] RLF test :: 2.03": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...r arm): RLF 4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44;..."
+      }
+    ],
+    "[144] power test :: 63.61": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...eline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75% of the oracle budget), and 8..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...\u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (75.3% of the oracle budget), 80...."
+      },
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c3",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 143,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...aluation seeds of a deterministic rule) \u2014 while saving 63.61 \u00b1 4.38% power and 80.63% spectrum where A3 saves nothi..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...4.61 vs 11.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs ..."
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...branching is the variance collapse and the power axis (63.61 \u00b1 4.38 vs 26.88 \u00b1 15.20). We think the fine-dial arm\u2019s..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...4.47% saving against the guarded branched controller\u2019s 63.61 \u00b1 4.38% at 4.61 \u00b1 0.92% RLF, Table VII) \u2014 masking unsa..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c2",
+        "snippet": "63.61 \u00b1 4.38"
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...4.21 \u00b1 0.26% vs 4.61 \u00b1 0.92% published, power 65.18 vs 63.61%). Blockage is then applied as an additional serving-l..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...A3-class reliability), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (75.3% of the oracle ceiling), an..."
+      }
+    ],
+    "[144] power test :: 27.37": [
+      {
+        "block": 96,
+        "kind": "cell",
+        "loc": "r6c2",
+        "snippet": "27.37 \u00b1 18.28"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r1c2",
+        "snippet": "27.37 \u00b1 18.28"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...1.47, t = \u22123.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t ..."
+      }
+    ],
+    "[144] power test :: 3.86": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...3.20, p = 0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t = 2.68, p ..."
+      }
+    ],
+    "[144] power test :: 0.0148": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...0.0288, d = \u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t = 2.68, p = 0.0499, d ..."
+      }
+    ],
+    "[144] power test :: 2.44": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...\u22122.03; power 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t = 2.68, p = 0.0499, d = 1.70. Th..."
+      }
+    ],
+    "[144] HO test :: 95.18": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...aches 4.61 \u00b1 0.92% RLF (flat baseline: 11.47 \u00b1 4.18%), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "... (75.3% of the oracle budget), 80.63% spectrum saving, 95.18 \u00b1 0.45% handover success \u2014 reliability comparable to t..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c1",
+        "snippet": "95.18 \u00b1 0.45"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...wer 63.61 vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t = 2.68, p = 0.0499, d = 1.70. The controll..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c1",
+        "snippet": "95.18 \u00b1 0.45"
+      },
+      {
+        "block": 181,
+        "kind": "cell",
+        "loc": "r7c1",
+        "snippet": "95.18"
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...ers 4.61 \u00b1 0.92% sustained RLF (A3-class reliability), 95.18 \u00b1 0.45% handover success, 63.61 \u00b1 4.38% power saving (..."
+      }
+    ],
+    "[144] HO test :: 92.40": [
+      {
+        "block": 96,
+        "kind": "cell",
+        "loc": "r6c1",
+        "snippet": "92.40 \u00b1 2.02"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r1c1",
+        "snippet": "92.40 \u00b1 2.02"
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... vs 27.37, t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t = 2.68, p = 0.0499, d = 1.70. The controller no lon..."
+      }
+    ],
+    "[144] HO test :: 2.68": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...t = 3.86, p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t = 2.68, p = 0.0499, d = 1.70. The controller no longer wander..."
+      }
+    ],
+    "[144] HO test :: 0.0499": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...p = 0.0148, d = 2.44; HO 95.18 vs 92.40, t = 2.68, p = 0.0499, d = 1.70. The controller no longer wanders the cliff ..."
+      }
+    ],
+    "[144] HO test :: 1.70": [
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...d = 2.44; HO 95.18 vs 92.40, t = 2.68, p = 0.0499, d = 1.70. The controller no longer wanders the cliff face: the ..."
+      }
+    ],
+    "[145] binary arm :: 18.59": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... are necessary: unguarded binary branching degrades to 18.59% RLF and fine-grained branching reaches only 9.04%. Tw..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...sm: the same architecture without the guard collapses (18.59 \u00b1 6.06% RLF), a vanilla fine-grained branched controll..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r3c4",
+        "snippet": "18.59 \u00b1 6.06"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...earing. Binarising without the guard is the worst arm (18.59 \u00b1 6.06% RLF; versus the proposed arm, t = \u22124.56, p = 0..."
+      }
+    ],
+    "[145] binary arm :: 6.06": [
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...same architecture without the guard collapses (18.59 \u00b1 6.06% RLF), a vanilla fine-grained branched controller in t..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r3c4",
+        "snippet": "18.59 \u00b1 6.06"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...Binarising without the guard is the worst arm (18.59 \u00b1 6.06% RLF; versus the proposed arm, t = \u22124.56, p = 0.0093, ..."
+      }
+    ],
+    "[145] binary arm :: 4.56": [
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... arm (18.59 \u00b1 6.06% RLF; versus the proposed arm, t = \u22124.56, p = 0.0093, d = \u22122.88). It hands the agent a high-sta..."
+      }
+    ],
+    "[145] binary arm :: 0.0093": [
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...9 \u00b1 6.06% RLF; versus the proposed arm, t = \u22124.56, p = 0.0093, d = \u22122.88). It hands the agent a high-stakes lever wi..."
+      }
+    ],
+    "[145] binary arm :: 2.88": [
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...; versus the proposed arm, t = \u22124.56, p = 0.0093, d = \u22122.88). It hands the agent a high-stakes lever with no safet..."
+      }
+    ],
+    "[145] BDQ arm :: 9.04": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... to 18.59% RLF and fine-grained branching reaches only 9.04%. Two stress tests probe the guard. Adding RSRP noise ..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...nched controller in the style of BDQ [28] reaches only 9.04 \u00b1 4.23%, and an action-masked Safe-DQN on the flat spa..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r2c4",
+        "snippet": "9.04 \u00b1 4.23"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": ".... The BDQ-style fine dial improves the mean over flat (9.04 \u00b1 4.23%) but keeps the lottery (RLF \u03c3 4.23, spectrum \u03c3..."
+      }
+    ],
+    "[145] BDQ arm :: 4.23": [
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...ontroller in the style of BDQ [28] reaches only 9.04 \u00b1 4.23%, and an action-masked Safe-DQN on the flat space atta..."
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r2c4",
+        "snippet": "9.04 \u00b1 4.23"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...DQ-style fine dial improves the mean over flat (9.04 \u00b1 4.23%) but keeps the lottery (RLF \u03c3 4.23, spectrum \u03c3 29.94)..."
+      }
+    ],
+    "[145] BDQ arm :: 29.94": [
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r2c3",
+        "snippet": "54.99 \u00b1 29.94"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...\u00b1 4.23%) but keeps the lottery (RLF \u03c3 4.23, spectrum \u03c3 29.94). Against the proposed arm, the RLF difference (d = \u22121..."
+      }
+    ],
+    "[145] BDQ arm :: 2.04": [
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...fference (d = \u22121.29) is not significant at n = 5 (t = \u22122.04, p = 0.1044), and we report it as-is. What clearly sep..."
+      }
+    ],
+    "[145] BDQ arm :: 0.1044": [
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...d = \u22121.29) is not significant at n = 5 (t = \u22122.04, p = 0.1044), and we report it as-is. What clearly separates the p..."
+      }
+    ],
+    "[145] BDQ arm :: 1.29": [
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...4). Against the proposed arm, the RLF difference (d = \u22121.29) is not significant at n = 5 (t = \u22122.04, p = 0.1044), ..."
+      }
+    ],
+    "[145] BDQ arm :: 26.88": [
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r2c2",
+        "snippet": "26.88 \u00b1 15.20"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... variance collapse and the power axis (63.61 \u00b1 4.38 vs 26.88 \u00b1 15.20). We think the fine-dial arm\u2019s very large spec..."
+      }
+    ],
+    "[145] BDQ arm :: 15.20": [
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r2c2",
+        "snippet": "26.88 \u00b1 15.20"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...e collapse and the power axis (63.61 \u00b1 4.38 vs 26.88 \u00b1 15.20). We think the fine-dial arm\u2019s very large spectrum spr..."
+      }
+    ],
+    "[145] spectrum :: 17.02": [
+      {
+        "block": 117,
+        "kind": "cell",
+        "loc": "r3c4",
+        "snippet": "80.63 \u00b1 17.02"
+      },
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r4c3",
+        "snippet": "80.63 \u00b1 17.02"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ost of this shared-return variance (spectrum \u03c3 29.94 \u2192 17.02), though the spectrum axis itself remains unanchored (..."
+      },
+      {
+        "block": 146,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...aving keeps a wide spread in the proposed arm (80.63 \u00b1 17.02; one seed lands at 47.26%, with correspondingly high t..."
+      },
+      {
+        "block": 162,
+        "kind": "cell",
+        "loc": "r7c3",
+        "snippet": "80.63 \u00b1 17.02"
+      },
+      {
+        "block": 207,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...um axis remains unanchored in the proposed design (\u03c3 = 17.02 across seeds); the guard constant (9 dB) is tied to th..."
+      }
+    ],
+    "[145] spectrum :: 29.94": [
+      {
+        "block": 141,
+        "kind": "cell",
+        "loc": "r2c3",
+        "snippet": "54.99 \u00b1 29.94"
+      },
+      {
+        "block": 145,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...\u00b1 4.23%) but keeps the lottery (RLF \u03c3 4.23, spectrum \u03c3 29.94). Against the proposed arm, the RLF difference (d = \u22121..."
+      }
+    ],
+    "[158] Safe-DQN :: 6.00": [
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...masked Safe-DQN on the flat space attains reliability (6.00 \u00b1 1.63%) but forfeits the power axis (19.41% vs 63.61%..."
+      },
+      {
+        "block": 155,
+        "kind": "cell",
+        "loc": "r4c4",
+        "snippet": "6.00 \u00b1 1.63"
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ction-masking side: the mask does deliver reliability (6.00 \u00b1 1.63% RLF, the best of the flat learners), but it fo..."
+      }
+    ],
+    "[158] Safe-DQN :: 1.63": [
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...Safe-DQN on the flat space attains reliability (6.00 \u00b1 1.63%) but forfeits the power axis (19.41% vs 63.61% saving..."
+      },
+      {
+        "block": 155,
+        "kind": "cell",
+        "loc": "r4c4",
+        "snippet": "6.00 \u00b1 1.63"
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...asking side: the mask does deliver reliability (6.00 \u00b1 1.63% RLF, the best of the flat learners), but it forfeits ..."
+      },
+      {
+        "block": 172,
+        "kind": "cell",
+        "loc": "r1c1",
+        "snippet": "88.22 \u00b1 1.63"
+      }
+    ],
+    "[158] Safe-DQN :: 19.41": [
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...eliability (6.00 \u00b1 1.63%) but forfeits the power axis (19.41% vs 63.61% saving) \u2014 neither branching alone, binarisa..."
+      },
+      {
+        "block": 155,
+        "kind": "cell",
+        "loc": "r4c2",
+        "snippet": "19.41 \u00b1 4.47"
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...of the flat learners), but it forfeits the power axis (19.41 \u00b1 4.47% saving against the guarded branched controller..."
+      }
+    ],
+    "[158] Safe-DQN :: 4.47": [
+      {
+        "block": 155,
+        "kind": "cell",
+        "loc": "r4c2",
+        "snippet": "19.41 \u00b1 4.47"
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...lat learners), but it forfeits the power axis (19.41 \u00b1 4.47% saving against the guarded branched controller\u2019s 63.6..."
+      }
+    ],
+    "[158] DDQN+PER :: 0.0531": [
+      {
+        "block": 157,
+        "kind": "cell",
+        "loc": "r6c5",
+        "snippet": "0.0531"
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...e is significant, the power difference borderline (p = 0.0531), and the RLF difference \u2014 though favourable in mean \u2014..."
+      }
+    ],
+    "[158] DDQN+PER :: 0.3961": [
+      {
+        "block": 157,
+        "kind": "cell",
+        "loc": "r4c5",
+        "snippet": "0.3961 (n.s.)"
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ugh favourable in mean \u2014 is not resolved at n = 3 (p = 0.3961); we state this plainly. Note the power/RLF pattern ac..."
+      }
+    ],
+    "[158] RCPO :: 20.9": [
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...he terminal form destabilised value learning outright (20.9% RLF at convergence), consistent with the v1 CMDP-Lagr..."
+      }
+    ],
+    "[158] RCPO :: 1.5": [
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ier under a sustained-RLF budget. In exploratory runs (1.5\u00d710\u2075 steps), both standard formulations \u2014 terminal-indi..."
+      },
+      {
+        "block": 181,
+        "kind": "cell",
+        "loc": "r4c0",
+        "snippet": "\u00b5 = 1.5"
+      }
+    ],
+    "[153]/[154]/[156] n = 3 :: n = 3": [
+      {
+        "block": 82,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "with n = 3 (ablated in Section IX-E), \u03b3 = 0.99, buffer 5\u00d710\u2075, bat..."
+      },
+      {
+        "block": 132,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...). Significance uses Welch\u2019s t-test with Cohen\u2019s d; at n = 3\u20135 seeds, d is the more reliable signal and p-values ar..."
+      },
+      {
+        "block": 135,
+        "kind": "cell",
+        "loc": "r9c1",
+        "snippet": "... steps (tournament) / 4\u00d710\u2075 (matched study), \u03b3 = 0.99, n = 3, buffer 5\u00d710\u2075, batch 256, lr 3\u00d710\u207b\u2074, \u03c4 = 0.01, \u03b5: 1.0\u2192..."
+      },
+      {
+        "block": 156,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "TABLE IX: Welch\u2019s t and Cohen\u2019s d (n = 3 training seeds; d is the reliable signal at this n)"
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...rence \u2014 though favourable in mean \u2014 is not resolved at n = 3 (p = 0.3961); we state this plainly. Note the power/RL..."
+      },
+      {
+        "block": 170,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...st three seeds of the flat multiseed run (which is the n = 3 configuration \u2014 same pipeline, same seeds; stated to a..."
+      },
+      {
+        "block": 173,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "n = 3 attains the best mean RLF and the highest, tightest sp..."
+      },
+      {
+        "block": 175,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ns. (a) n-step sensitivity (3 training seeds each; the n = 3 bars are the first three flat multiseed trainings, as ..."
+      }
+    ],
+    "[153]/[154]/[156] n = 3 :: n=3": [],
+    "[153]/[154]/[156] n = 3 :: 3 training seeds": [
+      {
+        "block": 153,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... flat learners under the identical reliability reward (3 training seeds \u00d7 4\u00d710\u2075 steps) gives Table VIII, with significance for..."
+      },
+      {
+        "block": 154,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ison (flat action space, identical reliability reward; 3 training seeds)"
+      },
+      {
+        "block": 156,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "TABLE IX: Welch\u2019s t and Cohen\u2019s d (n = 3 training seeds; d is the reliable signal at this n)"
+      },
+      {
+        "block": 171,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "TABLE XI: N-step sensitivity (3 training seeds each, reliability reward)"
+      },
+      {
+        "block": 175,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "Fig. 13. Ablations. (a) n-step sensitivity (3 training seeds each; the n = 3 bars are the first three flat multisee..."
+      }
+    ],
+    "[153]/[154]/[156] n = 3 :: three training seeds": [],
+    "[153]/[154]/[156] n = 3 :: three seeds": [
+      {
+        "block": 133,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...(Section IX-C) retrains Proposed/DDQN+PER/Standard DQN three seeds each under the identical reliability reward and a 4\u00d710..."
+      },
+      {
+        "block": 170,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...reward and 8\u00d710\u2075-step budget, n \u2208 {1, 5} are retrained three seeds each and compared with the first three seeds of the fl..."
+      }
+    ],
+    "[153]/[154]/[156] n = 3 :: at this n": [
+      {
+        "block": 156,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...en\u2019s d (n = 3 training seeds; d is the reliable signal at this n)"
+      }
+    ],
+    "wordform :: three": [
+      {
+        "block": 10,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "..., we say seed lottery for the latter. This paper makes three moves: it measures the resource\u2013reliability geometry o..."
+      },
+      {
+        "block": 67,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... one point of the reward-tilt frontier in Section V-A. Three shaping components correct structural pathologies of t..."
+      },
+      {
+        "block": 113,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...action filtering and masking in O-RAN [23], [24], with three distinctions: it acts on the state (the persistent qua..."
+      },
+      {
+        "block": 114,
+        "kind": "para",
+        "loc": "Heading 2",
+        "snippet": "C. Three Design Iterations, Documented"
+      },
+      {
+        "block": 133,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...(Section IX-C) retrains Proposed/DDQN+PER/Standard DQN three seeds each under the identical reliability reward and ..."
+      },
+      {
+        "block": 153,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...ations when everything else is matched? Retraining all three flat learners under the identical reliability reward (..."
+      },
+      {
+        "block": 170,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...reward and 8\u00d710\u2075-step budget, n \u2208 {1, 5} are retrained three seeds each and compared with the first three seeds of ..."
+      },
+      {
+        "block": 175,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...y (3 training seeds each; the n = 3 bars are the first three flat multiseed trainings, as in Table XI). (b) Reward-..."
+      },
+      {
+        "block": 177,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...exactly where the audit line predicts: 22.80% RLF. All three components are necessary on this channel."
+      },
+      {
+        "block": 194,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "Three findings. (1) The degradation is channel-inherent, not..."
+      }
+    ],
+    "wordform :: five": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...tice is unsafe at sub-terahertz (sub-THz) frequencies: five identically configured trainings of a flat joint hando..."
+      },
+      {
+        "block": 12,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...ility seed lottery, measured on an operational metric. Five identically configured trainings of the flat controlle..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...he worst-case measured shadow \u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (7..."
+      },
+      {
+        "block": 22,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "Fig. 1. Sub-THz vehicular network topology. Five roadside gNBs (ISD = 74.8 m, f = 140 GHz) serve a sing..."
+      },
+      {
+        "block": 89,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... reward toward reliability. We map this dial directly. Five reward configurations sweep the mobility weight and th..."
+      },
+      {
+        "block": 93,
+        "kind": "para",
+        "loc": "Heading 2",
+        "snippet": "B. Five Identical Trainings, Four-Fold Reliability Spread"
+      },
+      {
+        "block": 94,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...lity tilt (C5) and retrain the identical configuration five times. The architecture, hyperparameters, channel, dat..."
+      },
+      {
+        "block": 95,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... The seed lottery \u2014 flat controller, reliability tilt, five identical trainings"
+      },
+      {
+        "block": 101,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ability. (b) The seed lottery at the reliability tilt: five identical trainings; power saving vs sustained RLF, r ..."
+      },
+      {
+        "block": 133,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...tournament (Section IX-A) trains each action-space arm five seeds \u00d7 8\u00d710\u2075 steps."
+      },
+      {
+        "block": 139,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...d, and the proposed branched-binary with state guard \u2014 five independent training seeds each, identical channel, re..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "2) The lottery collapses on the guarded axes. Across five retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 ..."
+      },
+      {
+        "block": 148,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "Fig. 9. Per-seed outcomes across five identically configured trainings per arm (strips: indi..."
+      },
+      {
+        "block": 149,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... mechanism directly, from fresh greedy rollouts of the five frozen guarded models, binned by the reported RSRP the..."
+      },
+      {
+        "block": 151,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...10. Greedy policy behaviour of the guarded controller (five frozen training seeds, fresh rollouts, binned by repor..."
+      },
+      {
+        "block": 163,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...seed uncertainty (the C4/C5 rows are favourable draws; five retrainings of the C5 configuration span 4.27\u201316.80% R..."
+      },
+      {
+        "block": 186,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...2 measurement-imperfection model \u2014 and re-evaluate the five frozen guarded models under the standard protocol with..."
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...perience \u22651 blockage event); as the validity gate, the five frozen guarded models must first reproduce their publi..."
+      },
+      {
+        "block": 207,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...4] (bounded by the sweep of Section IX-G). Statistics. Five training seeds per tournament arm are enough to expose..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...entional DRL training into a reliability seed lottery. Five identical trainings of a flat joint controller span 4...."
+      }
+    ],
+    "wordform :: Three": [
+      {
+        "block": 10,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "..., we say seed lottery for the latter. This paper makes three moves: it measures the resource\u2013reliability geometry o..."
+      },
+      {
+        "block": 67,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... one point of the reward-tilt frontier in Section V-A. Three shaping components correct structural pathologies of t..."
+      },
+      {
+        "block": 113,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...action filtering and masking in O-RAN [23], [24], with three distinctions: it acts on the state (the persistent qua..."
+      },
+      {
+        "block": 114,
+        "kind": "para",
+        "loc": "Heading 2",
+        "snippet": "C. Three Design Iterations, Documented"
+      },
+      {
+        "block": 133,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...(Section IX-C) retrains Proposed/DDQN+PER/Standard DQN three seeds each under the identical reliability reward and ..."
+      },
+      {
+        "block": 153,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...ations when everything else is matched? Retraining all three flat learners under the identical reliability reward (..."
+      },
+      {
+        "block": 170,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...reward and 8\u00d710\u2075-step budget, n \u2208 {1, 5} are retrained three seeds each and compared with the first three seeds of ..."
+      },
+      {
+        "block": 175,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...y (3 training seeds each; the n = 3 bars are the first three flat multiseed trainings, as in Table XI). (b) Reward-..."
+      },
+      {
+        "block": 177,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...exactly where the audit line predicts: 22.80% RLF. All three components are necessary on this channel."
+      },
+      {
+        "block": 194,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "Three findings. (1) The degradation is channel-inherent, not..."
+      }
+    ],
+    "wordform :: Five": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...tice is unsafe at sub-terahertz (sub-THz) frequencies: five identically configured trainings of a flat joint hando..."
+      },
+      {
+        "block": 12,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...ility seed lottery, measured on an operational metric. Five identically configured trainings of the flat controlle..."
+      },
+      {
+        "block": 13,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...he worst-case measured shadow \u03c3 (8.2 dB, NLOS). Across five seeds: 4.61 \u00b1 0.92% RLF, 63.61 \u00b1 4.38% power saving (7..."
+      },
+      {
+        "block": 22,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "Fig. 1. Sub-THz vehicular network topology. Five roadside gNBs (ISD = 74.8 m, f = 140 GHz) serve a sing..."
+      },
+      {
+        "block": 89,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... reward toward reliability. We map this dial directly. Five reward configurations sweep the mobility weight and th..."
+      },
+      {
+        "block": 93,
+        "kind": "para",
+        "loc": "Heading 2",
+        "snippet": "B. Five Identical Trainings, Four-Fold Reliability Spread"
+      },
+      {
+        "block": 94,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...lity tilt (C5) and retrain the identical configuration five times. The architecture, hyperparameters, channel, dat..."
+      },
+      {
+        "block": 95,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... The seed lottery \u2014 flat controller, reliability tilt, five identical trainings"
+      },
+      {
+        "block": 101,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ability. (b) The seed lottery at the reliability tilt: five identical trainings; power saving vs sustained RLF, r ..."
+      },
+      {
+        "block": 133,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...tournament (Section IX-A) trains each action-space arm five seeds \u00d7 8\u00d710\u2075 steps."
+      },
+      {
+        "block": 139,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...d, and the proposed branched-binary with state guard \u2014 five independent training seeds each, identical channel, re..."
+      },
+      {
+        "block": 144,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "2) The lottery collapses on the guarded axes. Across five retrainings, RLF \u03c3 falls 4.18 \u2192 0.92, power \u03c3 18.28 \u2192 ..."
+      },
+      {
+        "block": 148,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "Fig. 9. Per-seed outcomes across five identically configured trainings per arm (strips: indi..."
+      },
+      {
+        "block": 149,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "... mechanism directly, from fresh greedy rollouts of the five frozen guarded models, binned by the reported RSRP the..."
+      },
+      {
+        "block": 151,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...10. Greedy policy behaviour of the guarded controller (five frozen training seeds, fresh rollouts, binned by repor..."
+      },
+      {
+        "block": 163,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...seed uncertainty (the C4/C5 rows are favourable draws; five retrainings of the C5 configuration span 4.27\u201316.80% R..."
+      },
+      {
+        "block": 186,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...2 measurement-imperfection model \u2014 and re-evaluate the five frozen guarded models under the standard protocol with..."
+      },
+      {
+        "block": 191,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...perience \u22651 blockage event); as the validity gate, the five frozen guarded models must first reproduce their publi..."
+      },
+      {
+        "block": 207,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...4] (bounded by the sweep of Section IX-G). Statistics. Five training seeds per tournament arm are enough to expose..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...entional DRL training into a reliability seed lottery. Five identical trainings of a flat joint controller span 4...."
+      }
+    ],
+    "multiplier :: \\b\\d+(?:\\.\\d+)?\\s*[x\u00d7X]": [
+      {
+        "block": 5,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...a measurement-calibrated 142 GHz vehicular channel \u2014 a 3.9\u00d7 reliability seed lottery \u2014 with per-seed power saving ..."
+      },
+      {
+        "block": 12,
+        "kind": "para",
+        "loc": "Normal",
+        "snippet": "...of the flat controller span 4.27\u201316.80% sustained RLF (3.9\u00d7), with per-seed power saving and RLF correlated at r =..."
+      },
+      {
+        "block": 72,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...on-granularity symmetry. The power and RB steps differ 3\u00d7 in normalised size (3/7 vs 8/56), so the RB_DOWN rewar..."
+      },
+      {
+        "block": 76,
+        "kind": "cell",
+        "loc": "r3c1",
+        "snippet": "3\u00d7 power/RB granularity asymmetry"
+      },
+      {
+        "block": 82,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "with n = 3 (ablated in Section IX-E), \u03b3 = 0.99, buffer 5\u00d710\u2075, batch 256, learning rate 3\u00d710\u207b\u2074, Polyak target upd..."
+      },
+      {
+        "block": 89,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... C5 (0.8/0.1/0.1, \u2212300). Each is trained once (seed 0, 5\u00d710\u2075 steps, identical pipeline) and evaluated under the ..."
+      },
+      {
+        "block": 94,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...architecture, hyperparameters, channel, data pool, and 8\u00d710\u2075-step budget are all the same; only the random seed ..."
+      },
+      {
+        "block": 97,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...reliability metric spans 4.27\u201316.80% sustained RLF \u2014 a 3.9\u00d7 spread produced by nothing but the seed. The divergenc..."
+      },
+      {
+        "block": 125,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...LF constraint grew to \u03bb = 27.8, dominating the reward ~70\u00d7: the policy protected always (power and spectrum savin..."
+      },
+      {
+        "block": 126,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ential shaping. Potential-based shaping weighted about 17\u00d7 below C5 changed episode completion but left spectrum ..."
+      },
+      {
+        "block": 133,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...eeds each under the identical reliability reward and a 4\u00d710\u2075-step budget; the tournament (Section IX-A) trains e..."
+      },
+      {
+        "block": 135,
+        "kind": "cell",
+        "loc": "r9c1",
+        "snippet": "random init, 8\u00d710\u2075 steps (tournament) / 4\u00d710\u2075 (matched study), \u03b3 = 0.9..."
+      },
+      {
+        "block": 153,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "...r the identical reliability reward (3 training seeds \u00d7 4\u00d710\u2075 steps) gives Table VIII, with significance for the ..."
+      },
+      {
+        "block": 158,
+        "kind": "para",
+        "loc": "Body Text",
+        "snippet": "...ier under a sustained-RLF budget. In exploratory runs (1.5\u00d710\u2075 steps), both standard formulations \u2014 terminal-indic..."
+      },
+      {
+        "block": 170,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "Under the identical reliability reward and 8\u00d710\u2075-step budget, n \u2208 {1, 5} are retrained three seeds e..."
+      },
+      {
+        "block": 177,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... in turn, fine-tuned from the full reliability model (~3\u00d710\u2075 steps) and evaluated under the standard protocol; b..."
+      },
+      {
+        "block": 209,
+        "kind": "para",
+        "loc": "First Paragraph",
+        "snippet": "... saving, collapsing cross-seed reliability variance by 4.5\u00d7 \u2014 with ablations showing that branching without the gu..."
+      }
+    ],
+    "multiplier :: \\b\\d+(?:\\.\\d+)?\\s*-?\\s*fold\\b": [],
+    "multiplier :: \\b(?:two|three|four|five|six|seven|eight|nine|ten|twelve)\\s*-?\\s*fold\\b": [
+      {
+        "block": 93,
+        "kind": "para",
+        "loc": "Heading 2",
+        "snippet": "B. Five Identical Trainings, Four-Fold Reliability Spread"
+      }
+    ]
+  },
+  "outside_owned": [
+    5,
+    13,
+    82,
+    96,
+    97,
+    117,
+    132,
+    133,
+    135,
+    141,
+    146,
+    155,
+    157,
+    162,
+    164,
+    170,
+    171,
+    172,
+    173,
+    175,
+    181,
+    191,
+    193,
+    194,
+    198,
+    207,
+    209
+  ]
+}

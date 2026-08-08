@@ -1,0 +1,2 @@
+seed,steps,pipeline,HO,Power,Spec,RLF,Tput,train_min
+5,800000,laptop-singlepass,94.72,6.03,89.57,4.53,473.9,40.3

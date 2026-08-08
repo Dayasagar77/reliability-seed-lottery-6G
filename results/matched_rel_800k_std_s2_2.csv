@@ -1,0 +1,2 @@
+method,seed,steps,pipeline,HO,Power,Spec,RLF,Tput,train_min
+Standard DQN,2,800000,laptop-singlepass,84.60,85.72,80.36,18.27,493.4,31.7

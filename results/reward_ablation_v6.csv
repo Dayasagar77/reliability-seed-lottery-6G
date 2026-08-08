@@ -1,0 +1,5 @@
+config,HO,Power,Spec,RLF,RB_DOWN_pct,PWR_DOWN_pct
+Full (C1+C3+C5),95.54,77.06,78.82,1.20,10.96,4.91
+no C1 (power gate off),95.59,80.62,72.14,0.40,10.20,4.65
+no C3 (RLF penalty off),95.79,75.35,86.07,0.53,11.88,4.13
+no C5 (RB symmetry off),95.60,77.68,78.62,0.80,11.07,4.80

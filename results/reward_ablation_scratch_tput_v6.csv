@@ -1,0 +1,5 @@
+config,HO,Power,Spec,Tput_Mbps,Tput_sd,mean_RB,RLF,RB_DOWN_pct
+Full from-scratch (C1+C3+C5),95.22,78.78,77.34,80.18,3.21,22.69,0.93,9.97
+no C1 (power gate off),95.50,76.23,86.10,72.17,3.26,17.79,0.67,11.42
+no C3 (RLF penalty off),95.12,76.73,85.17,71.39,3.90,18.31,1.07,11.00
+no C5 (RB symmetry off),95.26,76.95,84.39,72.80,2.60,18.74,0.93,11.50
