@@ -5,8 +5,14 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Trained model checkpoints (regenerable from the training scripts)
+# Trained model checkpoints.
+# NOT regenerable: the training driver builds its environment without a channel seed, so
+# re-running a training script does not reproduce these weights and no seed will make it.
+# Evaluation IS seeded and reproducible, so the archived checkpoints in checkpoints/ are what
+# lets a reader reproduce every table exactly. See checkpoints/README.md.
+# Loose .pt files in the working tree stay ignored; the curated archive is committed.
 *.pt
+!checkpoints/*.pt
 
 # HighD dataset & HighD-derived data (academic licence — not redistributed)
 highD-dataset-v1.0/
