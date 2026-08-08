@@ -1,0 +1,9 @@
+arm,label,repeat,chan_seed_first,guard_db,mode,ho_intent_share,HO,Power,Spec,RLF,Tput
+rule_noguard,"SAVE-always, no guard",0,20260801,,save,0.2398,83.4745,98.6928,0.0,25.7333,1379.2319
+rule_noguard,"SAVE-always, no guard",1,20360801,,save,0.2371,86.1691,98.464,0.0,22.0,1384.9231
+rule_noguard,"SAVE-always, no guard",2,20460801,,save,0.2375,85.2479,98.6617,0.0,21.6,1395.5954
+rule_noguard,"SAVE-always, no guard",3,20560801,,save,0.2374,85.7758,98.2608,0.0,21.6,1391.5325
+rule_noguard,"SAVE-always, no guard",4,20660801,,save,0.235,85.2938,98.4339,0.0,23.8667,1378.2858
+rule_noguard,"SAVE-always, no guard",5,20760801,,save,0.2369,86.5025,98.2576,0.0,22.5333,1384.1084
+rule_noguard,"SAVE-always, no guard",6,20860801,,save,0.2315,85.0272,98.5753,0.0,24.9333,1380.2176
+rule_noguard,"SAVE-always, no guard",7,20960801,,save,0.2363,85.9355,98.544,0.0,20.5333,1392.9027

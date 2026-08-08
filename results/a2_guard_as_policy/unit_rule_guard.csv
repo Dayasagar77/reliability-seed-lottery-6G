@@ -1,0 +1,9 @@
+arm,label,repeat,chan_seed_first,guard_db,mode,ho_intent_share,HO,Power,Spec,RLF,Tput
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),0,20260801,9.0,save,0.1947,94.9295,72.9719,0.0,5.3333,1492.2451
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),1,20360801,9.0,save,0.1958,94.5661,72.7373,0.0,4.1333,1495.6442
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),2,20460801,9.0,save,0.1939,95.1856,72.9293,0.0,5.0667,1509.2765
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),3,20560801,9.0,save,0.1953,96.2822,73.2321,0.0,4.9333,1498.4412
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),4,20660801,9.0,save,0.193,95.8173,73.301,0.0,5.0667,1485.4242
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),5,20760801,9.0,save,0.1943,95.3642,73.0817,0.0,4.6667,1495.7369
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),6,20860801,9.0,save,0.1923,95.2461,73.3981,0.0,5.3333,1489.0801
+rule_guard,Guard as policy (SAVE-always + 9 dB state guard),7,20960801,9.0,save,0.1916,95.1642,73.3784,0.0,5.2,1504.3359

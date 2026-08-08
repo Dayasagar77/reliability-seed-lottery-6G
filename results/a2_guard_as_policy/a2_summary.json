@@ -1,0 +1,56 @@
+{
+  "rule_guard": {
+    "label": "Guard as policy (SAVE-always + 9 dB state guard)",
+    "mean": {
+      "HO": 95.3194,
+      "Power": 73.128725,
+      "Spec": 0.0,
+      "RLF": 4.9666625,
+      "Tput": 1496.2730124999998
+    },
+    "sd_eval": {
+      "HO": 0.4929174068746204,
+      "Power": 0.22222028907145164,
+      "Spec": 0.0,
+      "RLF": 0.37564795998880396,
+      "Tput": 7.289920291134457
+    },
+    "ho_intent_share": 0.1947
+  },
+  "rule_noguard": {
+    "label": "SAVE-always, no guard",
+    "mean": {
+      "HO": 85.42828750000001,
+      "Power": 98.4862625,
+      "Spec": 0.0,
+      "RLF": 22.8499875,
+      "Tput": 1385.8496750000002
+    },
+    "sd_eval": {
+      "HO": 0.8738956193926983,
+      "Power": 0.154537486855941,
+      "Spec": 0.0,
+      "RLF": 1.6956611707808105,
+      "Tput": 6.2613578502889355
+    },
+    "ho_intent_share": 0.2398
+  },
+  "rule_protect": {
+    "label": "PROTECT-always (max power floor)",
+    "mean": {
+      "HO": 96.21788750000002,
+      "Power": 0.0,
+      "Spec": 0.0,
+      "RLF": 4.3,
+      "Tput": 2001.2413500000005
+    },
+    "sd_eval": {
+      "HO": 0.48138406817607476,
+      "Power": 0.0,
+      "Spec": 0.0,
+      "RLF": 0.4887580638720961,
+      "Tput": 11.677107199559313
+    },
+    "ho_intent_share": 0.1477
+  }
+}

@@ -1,0 +1,9 @@
+arm,label,repeat,chan_seed_first,guard_db,mode,ho_intent_share,HO,Power,Spec,RLF,Tput
+rule_protect,PROTECT-always (max power floor),0,20260801,,protect,0.1477,95.884,0.0,0.0,4.6667,1998.2427
+rule_protect,PROTECT-always (max power floor),1,20360801,,protect,0.1481,95.4287,0.0,0.0,4.1333,1999.3429
+rule_protect,PROTECT-always (max power floor),2,20460801,,protect,0.1451,96.7058,0.0,0.0,4.0,2008.5812
+rule_protect,PROTECT-always (max power floor),3,20560801,,protect,0.1485,96.8583,0.0,0.0,4.0,2016.085
+rule_protect,PROTECT-always (max power floor),4,20660801,,protect,0.1464,96.6974,0.0,0.0,3.4667,1981.4879
+rule_protect,PROTECT-always (max power floor),5,20760801,,protect,0.1487,95.7309,0.0,0.0,4.4,2007.7893
+rule_protect,PROTECT-always (max power floor),6,20860801,,protect,0.1501,96.1728,0.0,0.0,5.2,1985.7355
+rule_protect,PROTECT-always (max power floor),7,20960801,,protect,0.1459,96.2652,0.0,0.0,4.5333,2012.6663
