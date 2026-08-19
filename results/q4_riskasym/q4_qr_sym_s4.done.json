@@ -1,0 +1,21 @@
+{
+  "alpha": 0.25,
+  "arm": "qr_sym",
+  "binary_power": true,
+  "ckpt": "q4_qr_sym_s4.pt",
+  "guard_db": 9.0,
+  "guard_mode": "state",
+  "label": "Quantile trunk, symmetric mean (baseline)",
+  "md5": "18d0f32759e79370af531d0141832a3c",
+  "n_quantiles": 51,
+  "numpy": "2.4.4",
+  "resumed": false,
+  "risk_reliability": "mean",
+  "risk_spectrum": "mean",
+  "seed": 4,
+  "steps": 800000,
+  "steps_executed": 800000,
+  "torch": "2.5.1+cu121",
+  "train_min": "226.6",
+  "utc": "2026-08-10T20:00:27Z"
+}

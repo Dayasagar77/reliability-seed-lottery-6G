@@ -1,0 +1,16 @@
+arm,label,seed,steps,binary_power,binary_spectrum,rb_step,guard_db,guard_mode,ckpt,md5,train_min,utc,torch,numpy
+g_ii,"Guarded, incremental power + incremental spectrum",3,800000,False,False,8,9.0,state,q3_g_ii_s3.pt,361640ac4fb98d12d387df0a84f502be,66.0,2026-08-10T10:18:10Z,2.5.1+cu121,2.4.4
+g_ii,"Guarded, incremental power + incremental spectrum",2,800000,False,False,8,9.0,state,q3_g_ii_s2.pt,79e406243beff399e00e9a580e331f86,66.0,2026-08-10T10:18:11Z,2.5.1+cu121,2.4.4
+g_bb,"Guarded, binary power + binary spectrum",2,800000,True,True,56,9.0,state,q3_g_bb_s2.pt,00bd85d387f4499d01b311cab0bc8f4d,66.1,2026-08-10T10:18:15Z,2.5.1+cu121,2.4.4
+g_ii,"Guarded, incremental power + incremental spectrum",1,800000,False,False,8,9.0,state,q3_g_ii_s1.pt,be8d482a12771fed9444276e831eab7c,66.3,2026-08-10T10:18:25Z,2.5.1+cu121,2.4.4
+g_ii,"Guarded, incremental power + incremental spectrum",0,800000,False,False,8,9.0,state,q3_g_ii_s0.pt,8e234f4eaa1128e8201625367fd5d6e0,66.3,2026-08-10T10:18:30Z,2.5.1+cu121,2.4.4
+g_bb,"Guarded, binary power + binary spectrum",0,800000,True,True,56,9.0,state,q3_g_bb_s0.pt,e7172f7a3184e82c5c7c27236f11b84a,66.5,2026-08-10T10:18:42Z,2.5.1+cu121,2.4.4
+g_ii,"Guarded, incremental power + incremental spectrum",4,800000,False,False,8,9.0,state,q3_g_ii_s4.pt,5017229df46495fdccc1c8c76dd475a8,67.0,2026-08-10T10:19:11Z,2.5.1+cu121,2.4.4
+g_bb,"Guarded, binary power + binary spectrum",1,800000,True,True,56,9.0,state,q3_g_bb_s1.pt,c72e5a1163e38dbc875707a94e9baa0a,67.4,2026-08-10T10:19:34Z,2.5.1+cu121,2.4.4
+g_bb,"Guarded, binary power + binary spectrum",3,800000,True,True,56,9.0,state,q3_g_bb_s3.pt,929c9c3d0eda11e9749008e3ac25f781,54.5,2026-08-10T11:13:00Z,2.5.1+cu121,2.4.4
+g_ib,"Guarded, incremental power + binary spectrum (inverted)",0,800000,False,True,56,9.0,state,q3_g_ib_s0.pt,4a7dfd1c5a2555449d8bd86d256ed200,54.6,2026-08-10T11:13:06Z,2.5.1+cu121,2.4.4
+g_ib,"Guarded, incremental power + binary spectrum (inverted)",3,800000,False,True,56,9.0,state,q3_g_ib_s3.pt,66861b35c0bfc68a9bec41c7f0018cfa,54.3,2026-08-10T11:13:09Z,2.5.1+cu121,2.4.4
+g_ib,"Guarded, incremental power + binary spectrum (inverted)",2,800000,False,True,56,9.0,state,q3_g_ib_s2.pt,c26b6a7d7338e8e3823c07eb67a73fc7,54.4,2026-08-10T11:13:14Z,2.5.1+cu121,2.4.4
+g_bb,"Guarded, binary power + binary spectrum",4,800000,True,True,56,9.0,state,q3_g_bb_s4.pt,684d6051a5854d6e07acf0241a64c130,54.8,2026-08-10T11:13:18Z,2.5.1+cu121,2.4.4
+g_ib,"Guarded, incremental power + binary spectrum (inverted)",1,800000,False,True,56,9.0,state,q3_g_ib_s1.pt,4c7c6abf9e457884d9fa8f8314b378d2,54.6,2026-08-10T11:13:24Z,2.5.1+cu121,2.4.4
+g_ib,"Guarded, incremental power + binary spectrum (inverted)",4,800000,False,True,56,9.0,state,q3_g_ib_s4.pt,768f42db85449abd487776ec861e8ed7,54.2,2026-08-10T11:13:39Z,2.5.1+cu121,2.4.4

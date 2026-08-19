@@ -1,0 +1,21 @@
+{
+  "alpha": 0.25,
+  "arm": "qr_asym_u",
+  "binary_power": true,
+  "ckpt": "q4_qr_asym_u_s0.pt",
+  "guard_db": null,
+  "guard_mode": "state",
+  "label": "Quantile trunk, reliability CVaR, GUARD DISABLED",
+  "md5": "98b0b8945d7b40362d387f146b54596a",
+  "n_quantiles": 51,
+  "numpy": "2.4.4",
+  "resumed": false,
+  "risk_reliability": "cvar",
+  "risk_spectrum": "mean",
+  "seed": 0,
+  "steps": 800000,
+  "steps_executed": 800000,
+  "torch": "2.5.1+cu121",
+  "train_min": "200.9",
+  "utc": "2026-08-10T23:21:36Z"
+}

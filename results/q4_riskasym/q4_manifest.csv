@@ -1,0 +1,16 @@
+arm,label,seed,steps,steps_executed,resumed,risk_reliability,risk_spectrum,alpha,n_quantiles,guard_db,guard_mode,binary_power,ckpt,md5,train_min,utc,torch,numpy
+qr_sym,"Quantile trunk, symmetric mean (baseline)",0,800000,800000,False,mean,mean,0.25,51,9.0,state,True,q4_qr_sym_s0.pt,710d028f89deb4ba528a001e27ac1f39,226.4,2026-08-10T20:00:16Z,2.5.1+cu121,2.4.4
+qr_sym,"Quantile trunk, symmetric mean (baseline)",3,800000,800000,False,mean,mean,0.25,51,9.0,state,True,q4_qr_sym_s3.pt,c58af03bcd2ab1d7c335a0d23039a164,226.4,2026-08-10T20:00:18Z,2.5.1+cu121,2.4.4
+qr_sym,"Quantile trunk, symmetric mean (baseline)",2,800000,800000,False,mean,mean,0.25,51,9.0,state,True,q4_qr_sym_s2.pt,cf1375aede4f494c98febf41f2468f94,226.5,2026-08-10T20:00:23Z,2.5.1+cu121,2.4.4
+qr_sym,"Quantile trunk, symmetric mean (baseline)",4,800000,800000,False,mean,mean,0.25,51,9.0,state,True,q4_qr_sym_s4.pt,18d0f32759e79370af531d0141832a3c,226.6,2026-08-10T20:00:27Z,2.5.1+cu121,2.4.4
+qr_sym,"Quantile trunk, symmetric mean (baseline)",1,800000,800000,False,mean,mean,0.25,51,9.0,state,True,q4_qr_sym_s1.pt,27e8a0c4c0d02e7d07f396f3ffbcfcb8,226.8,2026-08-10T20:00:40Z,2.5.1+cu121,2.4.4
+qr_asym,"Quantile trunk, reliability CVaR + spectrum mean",0,800000,800000,False,cvar,mean,0.25,51,9.0,state,True,q4_qr_asym_s0.pt,cf19085bda0b04e3be16a0550f197f88,230.2,2026-08-10T20:04:03Z,2.5.1+cu121,2.4.4
+qr_asym,"Quantile trunk, reliability CVaR + spectrum mean",1,800000,800000,False,cvar,mean,0.25,51,9.0,state,True,q4_qr_asym_s1.pt,ed3ef9810ea5541997f8f009e9362f9d,230.7,2026-08-10T20:04:33Z,2.5.1+cu121,2.4.4
+qr_asym,"Quantile trunk, reliability CVaR + spectrum mean",2,800000,800000,False,cvar,mean,0.25,51,9.0,state,True,q4_qr_asym_s2.pt,2ac5309489278481aba21b5cd6da3245,230.8,2026-08-10T20:04:39Z,2.5.1+cu121,2.4.4
+qr_asym_u,"Quantile trunk, reliability CVaR, GUARD DISABLED",0,800000,800000,False,cvar,mean,0.25,51,,state,True,q4_qr_asym_u_s0.pt,98b0b8945d7b40362d387f146b54596a,200.9,2026-08-10T23:21:36Z,2.5.1+cu121,2.4.4
+qr_asym,"Quantile trunk, reliability CVaR + spectrum mean",4,800000,800000,False,cvar,mean,0.25,51,9.0,state,True,q4_qr_asym_s4.pt,5e90c961247c9dc7fe036d10b3c277a7,201.2,2026-08-10T23:21:57Z,2.5.1+cu121,2.4.4
+qr_asym_u,"Quantile trunk, reliability CVaR, GUARD DISABLED",1,800000,800000,False,cvar,mean,0.25,51,,state,True,q4_qr_asym_u_s1.pt,184265c25d2bdb19c8a0909c3db5e3fb,201.2,2026-08-10T23:21:58Z,2.5.1+cu121,2.4.4
+qr_asym_u,"Quantile trunk, reliability CVaR, GUARD DISABLED",2,800000,800000,False,cvar,mean,0.25,51,,state,True,q4_qr_asym_u_s2.pt,2f433919fdaef85d3221a97c4168c073,201.2,2026-08-10T23:22:10Z,2.5.1+cu121,2.4.4
+qr_asym,"Quantile trunk, reliability CVaR + spectrum mean",3,800000,800000,False,cvar,mean,0.25,51,9.0,state,True,q4_qr_asym_s3.pt,78037169cd9710cd544f592a2c04f5a6,201.8,2026-08-10T23:22:33Z,2.5.1+cu121,2.4.4
+qr_asym_u,"Quantile trunk, reliability CVaR, GUARD DISABLED",3,800000,800000,False,cvar,mean,0.25,51,,state,True,q4_qr_asym_u_s3.pt,efeda259af12dddaecdcc42c8eb4e859,199.3,2026-08-10T23:23:36Z,2.5.1+cu121,2.4.4
+qr_asym_u,"Quantile trunk, reliability CVaR, GUARD DISABLED",4,800000,800000,False,cvar,mean,0.25,51,,state,True,q4_qr_asym_u_s4.pt,c9e923f45e11d371b16a7baa7ddaa834,199.3,2026-08-10T23:24:15Z,2.5.1+cu121,2.4.4

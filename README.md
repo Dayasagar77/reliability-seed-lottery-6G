@@ -4,7 +4,7 @@ Code and results for the paper **"Measurement-Shaped Action Spaces for Deep Rein
 
 A single-agent **Dueling *n*-step Double-DQN (Dn-DQN)** controller, deployed as an O-RAN Near-RT RIC xApp, that jointly manages **handover, transmit power, and spectrum (resource-block) allocation** at 140 GHz on a measurement-calibrated NYU 142 GHz close-in channel, evaluated on real **HighD** vehicle trajectories. The headline result is a *measurement-shaped branched controller* — a binary protect/save power actuator plus a non-learned **measured state guard** — that cures the cross-seed "reliability seed lottery" of conventionally-designed DRL controllers.
 
-> **Status:** private repository accompanying a manuscript under review.
+> **Status:** public repository accompanying a manuscript under review.
 
 ## Repository layout
 
@@ -45,6 +45,50 @@ A single-agent **Dueling *n*-step Double-DQN (Dn-DQN)** controller, deployed as 
 - `policy_fig_data.py`, `fig_alpha_mu_sensitivity.py` — figure data / plots.
 
 **`results/`** — per-experiment output CSVs backing the paper's tables and figures (e.g. `cliff_power_sweep_nyu.csv`, `multiseed_rel_nyu.csv`, `branched_ablation_nyu.csv`, `oracle_power_budget_nyu.csv`, `guard_noise_sensitivity.csv`, `blockage_guard_stress.csv`). Every headline number in the paper traces to one of these files.
+
+## Reproduction and seeding
+
+**Training is deliberately unseeded; evaluation is seeded and exact.** The training driver builds
+its environment without a channel seed, so every training episode draws its fading and its
+trajectory start from fresh entropy. Two runs at the same declared seed are therefore *not the same
+experiment* — that is the paper's central finding, not an oversight. It follows that re-running a
+training script will not reproduce the weights behind the published tables, and no seed will make
+it do so.
+
+Evaluation, by contrast, **is** reproducible: the evaluation channel is seeded per episode
+(`seed x 1000 + episode index`, and `BASE + 100000 x repeat + n` under the common-random-number
+protocol), so a frozen checkpoint re-evaluated later returns identical numbers.
+
+Reproduction therefore runs at the level of **evaluating the released checkpoints**, not of
+reproducing a training trajectory. The 200 archived checkpoints in [`checkpoints/`](checkpoints/) —
+with `MANIFEST.csv` giving each file's original path, size, md5 and provenance group — are what let
+a reader reproduce every table in the paper exactly. See
+[`checkpoints/README.md`](checkpoints/README.md).
+
+## Pre-registration
+
+The campaigns the paper reports as pre-registered nulls were registered in writing, with their
+hypotheses, decision rules and kill criteria fixed, before any arm was trained. The dated documents
+are in [`prereg/`](prereg/):
+
+| document | registered | campaign |
+|---|---|---|
+| `DnDQN_SRDnDQN_PreRegistration_20260728.md` | 28 Jul 2026 | first registered hypothesis — subsequently falsified and reported as a null |
+| `PreRegistration_ActionSpaceAssignment_20260808.md` | 08 Aug 2026 | the actuator-assignment 2x2 |
+| `Q4_PriorArtGate_RiskAsymmetry_20260810.md` | 10 Aug 2026 | the risk-sensitive / quantile campaign |
+
+Pre-registration here means a dated internal record made before the runs, not deposit in a public
+registry; the manuscript uses the term in that sense throughout.
+
+**Campaign code and outputs**
+- `q3_actuator.py`, `q3_campaign.py`, `q3_analyse.py`, `q3_eval_unit.py`, `q3_smoke.py` — the
+  actuator-assignment 2x2. Outputs in `results/q3_assignment/` (run manifest) and
+  `results/q3_assignment_eval/` (`q3_verdict.json`, per-unit CSVs).
+- `q4_qr_branched.py`, `q4_campaign.py`, `q4_analyse.py`, `q4_eval_unit.py`, `q4_equiv_test.py`,
+  `q4_latency.py`, `q18_qr.py` — the quantile / risk-sensitive campaign. Outputs in
+  `results/q4_riskasym/` and `results/q4_riskasym_eval/`.
+- `equiv_verdict.py`, `fixedseed_verdict.py`, `partition_verdict.py` — the verdict scripts that
+  turn a campaign's per-unit CSVs into its registered decision.
 
 ## Requirements
 Python 3.11; a single-threaded CPU is sufficient.

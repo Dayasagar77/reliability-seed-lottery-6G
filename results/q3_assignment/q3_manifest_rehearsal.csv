@@ -1,0 +1,2 @@
+arm,label,seed,steps,binary_power,binary_spectrum,rb_step,guard_db,guard_mode,ckpt,md5,train_min,utc,torch,numpy
+g_ib,"Guarded, incremental power + binary spectrum (inverted)",0,4000,False,True,56,9.0,state,q3_g_ib_s0.pt,6688a1647c578ae48cfecd3490e789db,0.0,2026-08-10T09:11:56Z,2.5.1+cu121,2.4.4
